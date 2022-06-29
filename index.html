@@ -4,6 +4,8 @@
     <title>My experiment</title>
     <script src="https://unpkg.com/jspsych@7.2.3"></script>
     <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.1"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-image-keyboard-response@1.1.1"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.1"></script>
     <link href="https://unpkg.com/jspsych@7.2.3/css/jspsych.css" rel="stylesheet" type="text/css" />
   </head>
   <body></body>
@@ -11,6 +13,12 @@
     const jsPsych = initJsPsych();
 
     var timeline = [];
+
+    var preload = {
+      type: jsPsychPreload,
+      images: ['img/blue.png', 'img/orange.png']
+    };
+    timeline.push(preload);
 
     var welcome = {
       type: jsPsychHtmlKeyboardResponse,
@@ -38,6 +46,19 @@
   post_trial_gap: 2000
 };
     timeline.push(instructions);
+
+    var blue_trial = {
+      type: jsPsychImageKeyboardResponse,
+      stimulus: 'img/blue.png',
+      choices: ['f', 'j']
+    };
+
+    var orange_trial = {
+      type: jsPsychImageKeyboardResponse,
+      stimulus: 'img/orange.png',
+      choices: ['f', 'j']
+    };
+    timeline.push(blue_trial, orange_trial);
 
 
     jsPsych.run(timeline);

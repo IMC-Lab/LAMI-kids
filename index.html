@@ -10,11 +10,16 @@
   <script>
     const jsPsych = initJsPsych();
 
-    const hello_trial = {
-      type: jsPsychHtmlKeyboardResponse,
-      stimulus: 'Hello world!'
-    }
+    var timeline = [];
 
-    jsPsych.run([hello_trial]);
+    var welcome = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "Welcome to the experiment. Press any key to begin."
+    };
+
+    timeline.push(welcome);
+
+
+    jsPsych.run(timeline);
   </script>
 </html>

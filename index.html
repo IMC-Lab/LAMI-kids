@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My experiment</title>
+    <title>LAMI Kids</title>
     <script src="https://unpkg.com/jspsych@7.2.3"></script>
     <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.1"></script>
     <script src="https://unpkg.com/@jspsych/plugin-image-keyboard-response@1.1.1"></script>
@@ -28,7 +28,7 @@
 
     var welcome = {
       type: jsPsychHtmlKeyboardResponse,
-      stimulus: "Welcome to the experiment. Press any key to begin."
+      stimulus: "Hi there! Welcome to the experiment. Press any key to begin."
     };
 
     timeline.push(welcome);
@@ -36,17 +36,13 @@
     var instructions = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>In this experiment, a circle will appear in the center
-    of the screen.</p><p>If the circle is <strong>blue</strong>,
-    press the letter F on the keyboard as fast as you can.</p>
-    <p>If the circle is <strong>orange</strong>, press the letter J
-    as fast as you can.</p>
+    <p>In this experiment, we are building a new game!</p><p>We need kids who <strong>love playing games</strong>
+    to help us make it a good one.</p>
+    <p> Do you think you could help by trying it out?</p>
+    <p> You will be playing by moving this <strong> blue ball.</strong>
     <div style='width: 700px;'>
     <div style='float: left;'><img src='img/blue.png'></img>
-    <p class='small'><strong>Press the F key</strong></p></div>
-    <div style='float: right;'><img src='img/orange.png'></img>
-    <p class='small'><strong>Press the J key</strong></p></div>
-    </div>
+    <p class='small'><strong>This is your ball!</strong></p></div>
     <p>Press any key to begin.</p>
   `,
   post_trial_gap: 2000

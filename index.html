@@ -10,7 +10,13 @@
   </head>
   <body></body>
   <script>
-    const jsPsych = initJsPsych();
+
+    var jsPsych = initJsPsych({
+  on_finish: function() {
+    jsPsych.data.displayData();
+  }
+});
+
 
     var timeline = [];
 
@@ -48,22 +54,35 @@
     timeline.push(instructions);
 
     var test_stimuli = [
-      { stimulus: "img/blue.png"},
-      { stimulus: "img/orange.png"}
-    ];
+  { stimulus: "img/blue.png",  correct_response: 'f'},
+  { stimulus: "img/orange.png",  correct_response: 'j'}
+];
+
 
     var fixation = {
-      type: jsPsychHtmlKeyboardResponse,
-      stimulus: '<div style="font-size:60px;">+</div>',
-      choices: "NO_KEYS",
-      trial_duration: 1000,
-    };
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: '<div style="font-size:60px;">+</div>',
+  choices: "NO_KEYS",
+  trial_duration: function(){
+    return jsPsych.randomization.sampleWithoutReplacement([250, 500, 750, 1000, 1250, 1500, 1750, 2000], 1)[0];
+  },
+  data: {
+    task: 'fixation'
+  }
+}
+
 
     var test = {
       type: jsPsychImageKeyboardResponse,
       stimulus: jsPsych.timelineVariable('stimulus'),
-      choices: ['f', 'j']
-    }
+      choices: ['f', 'j'],
+      data: {
+        task: 'response',
+        correct_response: jsPsych.timelineVariable('correct_response')
+      }
+    };
+
+
 
     var test_procedure = {
         timeline: [fixation, test],

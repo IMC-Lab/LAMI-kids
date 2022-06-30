@@ -22,7 +22,7 @@
 
     var preload = {
       type: jsPsychPreload,
-      images: ['img/blue.png', 'img/orange.png']
+      images: ['img/blue.png', 'img/orange.png', 'img/thisarrow.png', 'img/thatarrow.png']
     };
     timeline.push(preload);
 
@@ -33,7 +33,21 @@
 
     timeline.push(welcome);
 
-    var instructions = {
+    var consent = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `
+    <p>Before we get started, here is information about <strong>consent</strong>.</p>
+    <p> <strong>Parent or Guardian</strong>: This is a practice round to see whether participants between 5-7 years old understand the study, answer the questions accurately, and stay attentive.</p>
+    <p> This data will not be used other than for informal interpretation to improve the study design. The participant is welcome to stop whenever, and will always remain anonymous.</p>
+    <p> The experiment should take no more than <strong>15 minutes</strong>.</p>
+    <p> Do you consent to continuing with the experiment? </p>
+    <p> <strong> Participant</strong>: Do you want to play? You are  welcome to stop whenever! </p>
+    <p>Press any key to begin.</p>
+  `,
+};
+    timeline.push(consent);
+
+    var meettheball = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
     <p>In this experiment, we are building a new game!</p><p>We need kids who <strong>love playing games</strong>
@@ -41,13 +55,44 @@
     <p> Do you think you could help by trying it out?</p>
     <p> You will be playing by moving this <strong> blue ball.</strong>
     <div style='width: 700px;'>
-    <div style='float: left;'><img src='img/blue.png'></img>
+    <div style='float: center;'><img src='img/blue.png'></img>
     <p class='small'><strong>This is your ball!</strong></p></div>
-    <p>Press any key to begin.</p>
+    <p>Press any key to continue.</p>
   `,
-  post_trial_gap: 2000
 };
-    timeline.push(instructions);
+    timeline.push(meettheball);
+
+    var meetballthisway = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `
+  <p>In the game you will try today, you can move the ball <strong>this way</strong> or <strong>that way</strong>.</p>
+  <p>If you press this button on this side, the ball will go <strong>this way</strong>.</p>
+  <div style='width: 700px;'>
+  <div style='float: left;'><img src='img/thisarrow.png'></img>
+  <p class='small'><strong>Move this way!</strong></p></div>
+  <div style='float: center;'><img src='img/blue.png'></img>
+  </div>
+  <p>Press the correct button to move the ball this way.</p>
+  `,
+  choices: "Arrowleft"
+};
+    timeline.push(meetballthisway);
+
+    var meetballthatway = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `
+  <p>You can also move the ball <strong>that way</strong>.
+  <p>If you press that button on that side, the ball will go <strong>that way</strong>.</p>
+  <div style='width: 700px;'>
+  <div style='float: right;'><img src='img/thatarrow.png'></img>
+  <p class='small'><strong>Move that way!</strong></p></div>
+  <div style='float: center;'><img src='img/blue.png'></img>
+  </div>
+  <p>Press the correct button to move the ball that way.</p>
+  `,
+  choices: "Arrowright"
+};
+    timeline.push(meetballthatway);
 
     var test_stimuli = [
   { stimulus: "img/blue.png",  correct_response: 'f'},

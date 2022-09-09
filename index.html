@@ -3,6 +3,7 @@
   <head>
     <title>LAMI Kids</title>
     <script src="https://unpkg.com/jspsych@7.2.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-video-keyboard-response@1.1.1"></script>
     <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.1"></script>
     <script src="https://unpkg.com/@jspsych/plugin-image-keyboard-response@1.1.1"></script>
     <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.1"></script>
@@ -21,11 +22,17 @@
 
     var timeline = [];
 
-    var preload = {
+    var preloadimg = {
       type: jsPsychPreload,
-      images: ['img/scorethisway.png', 'img/scorethatway.png', 'img/missthisway.png', 'img/missthatway.png', 'img/blue.png', 'img/orange.png', 'img/thisarrow.png', 'img/thatarrow.png', 'img/orangeroom.jpeg', 'img/purpleroom.jpeg', 'img/greengoal.webp']
+      images: ['img/lami-kids-choice.png', 'img/pinkroom.png', 'img/blueroom.png', 'img/thisarrow.png', 'img/thatarrow.png', 'img/greengoal.webp']
     };
-    timeline.push(preload);
+    timeline.push(preloadimg);
+
+    var preloadvideo = {
+      type: jsPsychPreload,
+      video: ['video/missthisway.mp4', 'video/missthatway.mp4', 'video/scorethisway.mp4', 'video/scorethatway.mp4']
+    };
+    timeline.push(preloadvideo);
 
     var welcome = {
       type: jsPsychHtmlKeyboardResponse,
@@ -54,9 +61,9 @@
     <p>In this experiment, we are building a new game!</p><p>We need kids who <strong>love playing games</strong>
     to help us make it a good one.</p>
     <p> Do you think you could help by trying it out?</p>
-    <p> You will be playing by moving this <strong> blue ball.</strong>
+    <p> You will be playing by moving this <strong> yellow ball.</strong>
     <div style='width: 700px;'>
-    <div style='float: center;'><img src='img/blue.png'></img>
+    <div style='float: center;'><img src='img/lami-kids-choice.png'></img>
     <p class='small'><strong>This is your ball!</strong></p></div>
     <p>Press any key to continue.</p>
   `,
@@ -99,13 +106,13 @@
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
   <p>In the game, you want the ball to score in the red goal, and then the goal will turn green. Nice job! </p>
-  <p>When you move the ball,  it will be in the orange room or the purple room, which can block you from scoring. If the ball hits the purple or orange walls, the ball won't score  in  the goal.</p>
+  <p>When you move the ball,  it will be in the blue room or the pink room, which can block you from scoring. If the ball hits the purple or orange walls, the ball won't score  in  the goal.</p>
   <p>This is what they look like:</p>
   <div style='width: 700px;'>
-  <div style='float: left;'><img src='img/orangeroom.jpeg'></img>
-  <p class='small'><strong>Orange Room</strong></p></div>
-  <div style='float: right;'><img src='img/purpleroom.jpeg'></img>
-  <p class='small'><strong>Purple Room</strong></p></div>
+  <div style='float: left;'><img src='img/blueroom.jpeg'></img>
+  <p class='small'><strong>Blue Room</strong></p></div>
+  <div style='float: right;'><img src='img/pinkroom.jpeg'></img>
+  <p class='small'><strong>Pink Room</strong></p></div>
   <p>Press any key to continue.</p>
   `,
 };
@@ -126,16 +133,16 @@
     // figure out whether they scored
     function trialOutcome(room, direction) {
       let outcome = 'score';
-      if ((room=='orange' && direction=='this') ||
-          (room=='purple' && direction=='that'))
+      if ((room=='blue' && direction=='this') ||
+          (room=='pink' && direction=='that'))
           outcome = 'miss';
       return outcome;
     }
 
     function otherRoom(room) {
-      if (room == 'orange')
-        return 'purple';
-      return 'orange';
+      if (room == 'blue')
+        return 'pink';
+      return 'blue';
     }
 
     function otherDirection(direction) {
@@ -147,7 +154,7 @@
     /* define trial stimuli array for timeline variables */
     var  train_stimuli =  jsPsych.randomization.factorial({
       direction: ['this', 'that'],
-      room: ['orange', 'purple']
+      room: ['blue', 'pink']
     }, 1)
 
     /*
@@ -187,12 +194,12 @@
     };
 
     var test = {
-      type: jsPsychImageKeyboardResponse,
+      type: jsPsychVideoKeyboardResponse,
       stimulus: function () {
         let room =  jsPsych.timelineVariable('room');
         let direction =  jsPsych.timelineVariable('direction');
 
-        return 'img/' +  trialOutcome(room, direction) + direction + 'way.png';
+        return 'video/' +  trialOutcome(room, direction) + direction + 'way.mp4';
       },
     };
 

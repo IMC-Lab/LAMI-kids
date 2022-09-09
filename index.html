@@ -1,246 +1,231 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>LAMI Kids</title>
-    <script src="https://unpkg.com/jspsych@7.2.3"></script>
-    <script src="https://unpkg.com/@jspsych/plugin-video-keyboard-response@1.1.1"></script>
-    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.1"></script>
-    <script src="https://unpkg.com/@jspsych/plugin-image-keyboard-response@1.1.1"></script>
-    <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.1"></script>
-    <script src="https://unpkg.com/@jspsych/plugin-video-keyboard-response@1.1.1"></script>
-    <link href="https://unpkg.com/jspsych@7.2.3/css/jspsych.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body></body>
-  <script>
+<head>
+  <title>LAMI Kids</title>
+  <script src="https://unpkg.com/jspsych@7.2.3"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-video-keyboard-response@1.1.1"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.1"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-image-keyboard-response@1.1.1"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.1"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-video-keyboard-response@1.1.1"></script>
+  <link href="https://unpkg.com/jspsych@7.2.3/css/jspsych.css" rel="stylesheet" type="text/css" />
+</head>
+<body></body>
+<script>
 
-    var jsPsych = initJsPsych({
+var jsPsych = initJsPsych({
   on_finish: function() {
     jsPsych.data.displayData();
   }
 });
 
 
-    var timeline = [];
+var timeline = [];
 
-    var preloadimg = {
-      type: jsPsychPreload,
-      images: ['img/lami-kids-choice.png', 'img/pinkroom.png', 'img/blueroom.png', 'img/thisarrow.png', 'img/thatarrow.png', 'img/greengoal.webp']
-    };
-    timeline.push(preloadimg);
+var preload = {
+  type: jsPsychPreload,
+  images: ['img/lami-kids-choice.png', 'img/pinkroom.png', 'img/blueroom.png',
+           'img/thisarrow.png', 'img/thatarrow.png', 'img/greengoal.webp'],
+  video: ['video/missthisway.mp4', 'video/missthatway.mp4', 'video/scorethisway.mp4', 'video/scorethatway.mp4']
+};
+timeline.push(preload);
 
-    var preloadvideo = {
-      type: jsPsychPreload,
-      video: ['video/missthisway.mp4', 'video/missthatway.mp4', 'video/scorethisway.mp4', 'video/scorethatway.mp4']
-    };
-    timeline.push(preloadvideo);
-
-    var welcome = {
-      type: jsPsychHtmlKeyboardResponse,
-      stimulus: "Hi there! Welcome to the experiment. Press any key to begin."
-    };
-
-    timeline.push(welcome);
-
-    var consent = {
+var welcome = {
   type: jsPsychHtmlKeyboardResponse,
-  stimulus: `
-    <p>Before we get started, here is information about <strong>consent</strong>.</p>
+  stimulus: "Hi there! Welcome to the experiment. Press any key to begin."
+};
+timeline.push(welcome);
+
+var consent = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `<p>Before we get started, here is information about <strong>consent</strong>.</p>
     <p> <strong>Parent or Guardian</strong>: This is a practice round to see whether participants between 5-7 years old understand the study, answer the questions accurately, and stay attentive.</p>
     <p> This data will not be used other than for informal interpretation to improve the study design. The participant is welcome to stop whenever, and will always remain anonymous.</p>
     <p> The experiment should take no more than <strong>15 minutes</strong>.</p>
     <p> Do you consent to continuing with the experiment? </p>
     <p> <strong> Participant</strong>: Do you want to play? You are  welcome to stop whenever! </p>
-    <p>Press any key to begin.</p>
-  `,
+    <p>Press any key to begin.</p>`,
 };
-    timeline.push(consent);
+timeline.push(consent);
 
-    var meettheball = {
-  type: jsPsychHtmlKeyboardResponse,
-  stimulus: `
-    <p>In this experiment, we are building a new game!</p><p>We need kids who <strong>love playing games</strong>
+var meettheball = {
+type: jsPsychHtmlKeyboardResponse,
+stimulus: `<p>In this experiment, we are building a new game!</p><p>We need kids who <strong>love playing games</strong>
     to help us make it a good one.</p>
     <p> Do you think you could help by trying it out?</p>
     <p> You will be playing by moving this <strong> yellow ball.</strong>
     <div style='width: 700px;'>
     <div style='float: center;'><img src='img/lami-kids-choice.png'></img>
     <p class='small'><strong>This is your ball!</strong></p></div>
-    <p>Press any key to continue.</p>
-  `,
+    <p>Press any key to continue.</p>`,
 };
-    timeline.push(meettheball);
+timeline.push(meettheball);
 
-    var meetballthisway = {
+var meetballthisway = {
   type: jsPsychHtmlKeyboardResponse,
-  stimulus: `
-  <p>In the game you will try today, you can move the ball <strong>this way</strong> or <strong>that way</strong>.</p>
-  <p>If you press this button on this side, the ball will go <strong>this way</strong>.</p>
-  <div style='width: 700px;'>
-  <div style='float: left;'><img src='img/thisarrow.png'></img>
-  <p class='small'><strong>Move this way!</strong></p></div>
-  <div style='float: center;'><img src='img/blue.png'></img>
-  </div>
-  <p>Press the correct button to move the ball this way.</p>
-  `,
+  stimulus: `<p>In the game you will try today, you can move the ball <strong>this way</strong> or <strong>that way</strong>.</p>
+    <p>If you press this button on this side, the ball will go <strong>this way</strong>.</p>
+    <div style='width: 700px;'>
+    <div style='float: left;'><img src='img/thisarrow.png'></img>
+    <p class='small'><strong>Move this way!</strong></p></div>
+    <div style='float: center;'><img src='img/blue.png'></img>
+    </div>
+    <p>Press the correct button to move the ball this way.</p>`,
   choices: ['ArrowLeft']
 };
-    timeline.push(meetballthisway);
+timeline.push(meetballthisway);
 
-    var meetballthatway = {
+var meetballthatway = {
   type: jsPsychHtmlKeyboardResponse,
-  stimulus: `
-  <p>You can also move the ball <strong>that way</strong>.</p>
-  <p>If you press that button on that side, the ball will go <strong>that way</strong>.</p>
-  <div style='width: 700px;'>
-  <div style='float: right;'><img src='img/thatarrow.png'></img>
-  <p class='small'><strong>Move that way!</strong></p></div>
-  <div style='float: center;'><img src='img/blue.png'></img>
-  </div>
-  <p>Press the correct button to move the ball that way.</p>
-  `,
+  stimulus: `<p>You can also move the ball <strong>that way</strong>.</p>
+    <p>If you press that button on that side, the ball will go <strong>that way</strong>.</p>
+    <div style='width: 700px;'>
+    <div style='float: right;'><img src='img/thatarrow.png'></img>
+    <p class='small'><strong>Move that way!</strong></p></div>
+    <div style='float: center;'><img src='img/blue.png'></img>
+    </div>
+    <p>Press the correct button to move the ball that way.</p>`,
   choices: ['ArrowRight']
 };
-    timeline.push(meetballthatway);
+timeline.push(meetballthatway);
 
-    var meetgamerooms = {
+var meetgamerooms = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `<p>In the game, you want the ball to score in the red goal, and then the goal will turn green. Nice job! </p>
+    <p>When you move the ball,  it will be in the blue room or the pink room, which can block you from scoring. If the ball hits the purple or orange walls, the ball won't score  in  the goal.</p>
+    <p>This is what they look like:</p>
+    <div style='width: 700px;'>
+    <div style='float: left;'><img src='img/blueroom.png'></img>
+    <p class='small'><strong>Blue Room</strong></p></div>
+    <div style='float: right;'><img src='img/pinkroom.png'></img>
+    <p class='small'><strong>Pink Room</strong></p></div>
+    <p>Press any key to continue.</p>`,
+};
+timeline.push(meetgamerooms);
+
+var meetturninggreen = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-  <p>In the game, you want the ball to score in the red goal, and then the goal will turn green. Nice job! </p>
-  <p>When you move the ball,  it will be in the blue room or the pink room, which can block you from scoring. If the ball hits the purple or orange walls, the ball won't score  in  the goal.</p>
-  <p>This is what they look like:</p>
-  <div style='width: 700px;'>
-  <div style='float: left;'><img src='img/blueroom.jpeg'></img>
-  <p class='small'><strong>Blue Room</strong></p></div>
-  <div style='float: right;'><img src='img/pinkroom.jpeg'></img>
-  <p class='small'><strong>Pink Room</strong></p></div>
-  <p>Press any key to continue.</p>
-  `,
+    <p>This is what it looks like when the ball scores and the goal turns green:</p>
+    <div style='width: 700px;'>
+    <div style='float: left;'><img src='img/greengoal.webp'></img>
+    <p class='small'><strong>You scored! Great job!</strong></p></div>
+    <p>Press any key to continue.</p>`,
 };
-    timeline.push(meetgamerooms);
+timeline.push(meetturninggreen);
 
-    var meetturninggreen = {
+// figure out whether they scored
+function trialOutcome(room, direction) {
+  let outcome = 'score';
+  if ((room=='blue' && direction=='this') ||
+      (room=='pink' && direction=='that'))
+      outcome = 'miss';
+  return outcome;
+}
+
+function otherRoom(room) {
+  if (room == 'blue')
+    return 'pink';
+  return 'blue';
+}
+
+function otherDirection(direction) {
+  if (direction == 'this')
+    return 'that';
+  return 'this';
+}
+
+/* define trial stimuli array for timeline variables */
+var  train_stimuli =  jsPsych.randomization.factorial({
+  direction: ['this', 'that'],
+  room: ['blue', 'pink']
+}, 1)
+
+/*
+var stimuli = [
+  { outcome: "img/scorethisway.png", stimulus: "Let's see what the game will look like. First,  go this way"},
+  { outcome: "img/scorethatway.png", stimulus: "Perfect! Try going this  way again!"},
+  { outcome: "img/missthisway.png", stimulus: "You're doing great, now try that way!"},
+  { outcome: "img/missthatway.png", stimulus: "Now the last result,  try that way again!"}
+];
+*/
+
+/* define fixation and test trials */
+var fixation = {
+  timeline: [{
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: function() {
+      let room =  jsPsych.timelineVariable('room');
+      let direction =  jsPsych.timelineVariable('direction');
+      return  'You are in the ' +  room + " room.\nLet's  see  what happens if you go " +  direction + '  way!';
+    },
+    choices: ['ArrowRight', 'ArrowLeft']
+  }],
+
+  loop_function: function(data) {
+    let direction =  jsPsych.timelineVariable('direction');
+    let response = data.values()[0].response;
+
+    let correct = jsPsych.pluginAPI.compareKeys(response, 'ArrowLeft');
+    if (direction == 'that')
+       correct = jsPsych.pluginAPI.compareKeys(response, 'ArrowRight');
+
+    if (!correct)
+      alert('Oops! You clicked the button for ' + otherDirection(direction) + ' way, not ' + direction + ' way. Try again!');
+
+    return !correct;
+  }
+};
+
+var test = {
+  type: jsPsychVideoKeyboardResponse,
+  width: 400, height: 300,
+  stimulus: function () {
+    let room =  jsPsych.timelineVariable('room');
+    let direction =  jsPsych.timelineVariable('direction');
+
+    return ['video/' +  trialOutcome(room, direction) + direction + 'way.mp4'];
+  },
+};
+
+/* define test procedure */
+var training_procedure = {
+  timeline: [fixation, test],
+  timeline_variables: train_stimuli,
+  repetitions: 1
+};
+timeline.push(training_procedure);
+
+var test_stimuli = jsPsych.randomization.factorial({
+  outcome: ['score', 'miss'],
+  room: ['orange', 'purple'],
+  prompt:['remember', 'what if?', 'cause']
+}, 1)
+
+
+var checkprompt = {
   type: jsPsychHtmlKeyboardResponse,
-  stimulus: `
-  <p>This is what it looks like when the ball scores and the goal turns green:</p>
-  <div style='width: 700px;'>
-  <div style='float: left;'><img src='img/greengoal.webp'></img>
-  <p class='small'><strong>You scored! Great job!</strong></p></div>
-  <p>Press any key to continue.</p>
-  `,
+  stimulus: jsPsych.timelineVariable('stimulus'),
 };
-    timeline.push(meetturninggreen);
 
-    // figure out whether they scored
-    function trialOutcome(room, direction) {
-      let outcome = 'score';
-      if ((room=='blue' && direction=='this') ||
-          (room=='pink' && direction=='that'))
-          outcome = 'miss';
-      return outcome;
-    }
+var checkquestion = {
+  type: jsPsychImageKeyboardResponse,
+  stimulus: function () {
+    let prompt =  jsPsych.timelineVariable('prompt');
+    let direction =  jsPsych.timelineVariable('direction');
+    let room =  jsPsych.timelineVariable('room');
 
-    function otherRoom(room) {
-      if (room == 'blue')
-        return 'pink';
-      return 'blue';
-    }
+    if (prompt ==  'remember')
+      return 'Did you move the ball this way or that way?';
+    if (prompt ==  'what if?')
+      return 'Would the ball have scored if you moved ' + otherDirection(direction) + ' way?';
+    if (prompt ==  'cause')
+      return 'Did you move the ball this way or that way?';
+  },
+  choices: ['ArrowRight', 'ArrowLeft'],
+};
 
-    function otherDirection(direction) {
-      if (direction == 'this')
-        return 'that';
-      return 'this';
-    }
+jsPsych.run(timeline);
 
-    /* define trial stimuli array for timeline variables */
-    var  train_stimuli =  jsPsych.randomization.factorial({
-      direction: ['this', 'that'],
-      room: ['blue', 'pink']
-    }, 1)
-
-    /*
-    var stimuli = [
-      { outcome: "img/scorethisway.png", stimulus: "Let's see what the game will look like. First,  go this way"},
-      { outcome: "img/scorethatway.png", stimulus: "Perfect! Try going this  way again!"},
-      { outcome: "img/missthisway.png", stimulus: "You're doing great, now try that way!"},
-      { outcome: "img/missthatway.png", stimulus: "Now the last result,  try that way again!"}
-    ];
-    */
-
-    /* define fixation and test trials */
-    var fixation = {
-      timeline: [{
-        type: jsPsychHtmlKeyboardResponse,
-        stimulus: function() {
-          let room =  jsPsych.timelineVariable('room');
-          let direction =  jsPsych.timelineVariable('direction');
-          return  'You are in the ' +  room + " room.\nLet's  see  what happens if you go " +  direction + '  way!';
-        },
-        choices: ['ArrowRight', 'ArrowLeft']
-      }],
-
-      loop_function: function(data) {
-        let direction =  jsPsych.timelineVariable('direction');
-        let response = data.values()[0].response;
-
-        let correct = jsPsych.pluginAPI.compareKeys(response, 'ArrowLeft');
-        if (direction == 'that')
-           correct = jsPsych.pluginAPI.compareKeys(response, 'ArrowRight');
-
-        if (!correct)
-          alert('Oops! You clicked the button for ' + otherDirection(direction) + ' way, not ' + direction + ' way. Try again!');
-
-        return !correct;
-      }
-    };
-
-    var test = {
-      type: jsPsychVideoKeyboardResponse,
-      stimulus: function () {
-        let room =  jsPsych.timelineVariable('room');
-        let direction =  jsPsych.timelineVariable('direction');
-
-        return 'video/' +  trialOutcome(room, direction) + direction + 'way.mp4';
-      },
-    };
-
-    /* define test procedure */
-    var training_procedure = {
-      timeline: [fixation, test],
-      timeline_variables: train_stimuli,
-      repetitions: 1
-    };
-    timeline.push(training_procedure);
-
-    var test_stimuli = jsPsych.randomization.factorial({
-      outcome: ['score', 'miss'],
-      room: ['orange', 'purple'],
-      prompt:['remember', 'what if?', 'cause']
-    }, 1)
-
-
-    var checkprompt = {
-      type: jsPsychHtmlKeyboardResponse,
-      stimulus: jsPsych.timelineVariable('stimulus'),
-    };
-
-    var checkquestion = {
-      type: jsPsychImageKeyboardResponse,
-      stimulus: function () {
-        let prompt =  jsPsych.timelineVariable('prompt');
-        let direction =  jsPsych.timelineVariable('direction');
-        let room =  jsPsych.timelineVariable('room');
-
-        if (prompt ==  'remember')
-          return 'Did you move the ball this way or that way?';
-        if (prompt ==  'what if?')
-          return 'Would the ball have scored if you moved ' + otherDirection(direction) + ' way?';
-        if (prompt ==  'cause')
-          return 'Did you move the ball this way or that way?';
-      },
-      choices: ['ArrowRight', 'ArrowLeft'],
-    };
-
-    jsPsych.run(timeline);
-
-  </script>
+</script>
 </html>

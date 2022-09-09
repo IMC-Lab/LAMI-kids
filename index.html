@@ -6,6 +6,7 @@
     <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.1"></script>
     <script src="https://unpkg.com/@jspsych/plugin-image-keyboard-response@1.1.1"></script>
     <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.1"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-video-keyboard-response@1.1.1"></script>
     <link href="https://unpkg.com/jspsych@7.2.3/css/jspsych.css" rel="stylesheet" type="text/css" />
   </head>
   <body></body>
@@ -74,7 +75,7 @@
   </div>
   <p>Press the correct button to move the ball this way.</p>
   `,
-  choices: 'f'
+  choices: ['ArrowLeft']
 };
     timeline.push(meetballthisway);
 
@@ -90,7 +91,7 @@
   </div>
   <p>Press the correct button to move the ball that way.</p>
   `,
-  choices: 'j',
+  choices: ['ArrowRight']
 };
     timeline.push(meetballthatway);
 
@@ -122,63 +123,117 @@
 };
     timeline.push(meetturninggreen);
 
-    var test_stimuli = [
-  { stimulus: "img/scorethisway.png",  correct_response: 'f'},
-  { stimulus: "img/scorethatway.png",  correct_response: 'j'},
-  { stimulus: "img/missthisway.png",  correct_response: 'f'},
-  { stimulus: "img/missthatway.png",  correct_response: 'j'},
-];
+    // figure out whether they scored
+    function trialOutcome(room, direction) {
+      let outcome = 'score';
+      if ((room=='orange' && direction=='this') ||
+          (room=='purple' && direction=='that'))
+          outcome = 'miss';
+      return outcome;
+    }
 
+    function otherRoom(room) {
+      if (room == 'orange')
+        return 'purple';
+      return 'orange';
+    }
 
-    var decision = {
-  type: jsPsychHtmlKeyboardResponse,
-  stimulus: '<div style="font-size:60px;">+</div>',
-  choices: ['f', 'j'],
+    function otherDirection(direction) {
+      if (direction == 'this')
+        return 'that';
+      return 'this';
+    }
 
-  data: {
-    task: 'decision'
-  }
-}
+    /* define trial stimuli array for timeline variables */
+    var  train_stimuli =  jsPsych.randomization.factorial({
+      direction: ['this', 'that'],
+      room: ['orange', 'purple']
+    }, 1)
 
-    var test = {
-        type: jsPsychImageKeyboardResponse,
-        stimulus: jsPsych.timelineVariable('stimulus'),
-        choices: ['f', 'j'],
-        data: {
-          task: 'response',
-          correct_response: jsPsych.timelineVariable('correct_response')
+    /*
+    var stimuli = [
+      { outcome: "img/scorethisway.png", stimulus: "Let's see what the game will look like. First,  go this way"},
+      { outcome: "img/scorethatway.png", stimulus: "Perfect! Try going this  way again!"},
+      { outcome: "img/missthisway.png", stimulus: "You're doing great, now try that way!"},
+      { outcome: "img/missthatway.png", stimulus: "Now the last result,  try that way again!"}
+    ];
+    */
+
+    /* define fixation and test trials */
+    var fixation = {
+      timeline: [{
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: function() {
+          let room =  jsPsych.timelineVariable('room');
+          let direction =  jsPsych.timelineVariable('direction');
+          return  'You are in the ' +  room + " room.\nLet's  see  what happens if you go " +  direction + '  way!';
         },
-        on_finish: function(data){
-          data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
-        }
-      };
+        choices: ['ArrowRight', 'ArrowLeft']
+      }],
 
-    var test_procedure = {
-        timeline: [decision, test],
-        timeline_variables: test_stimuli,
-        randomize_order: true,
-        repetitions: 1
-      };
+      loop_function: function(data) {
+        let direction =  jsPsych.timelineVariable('direction');
+        let response = data.values()[0].response;
 
-    timeline.push(test_procedure);
+        let correct = jsPsych.pluginAPI.compareKeys(response, 'ArrowLeft');
+        if (direction == 'that')
+           correct = jsPsych.pluginAPI.compareKeys(response, 'ArrowRight');
 
-    var debrief_block = {
-      type: jsPsychHtmlKeyboardResponse,
-      stimulus: function() {
+        if (!correct)
+          alert('Oops! You clicked the button for ' + otherDirection(direction) + ' way, not ' + direction + ' way. Try again!');
 
-        var trials = jsPsych.data.get().filter({task: 'response'});
-        var correct_trials = trials.filter({correct: true});
-        var accuracy = Math.round(correct_trials.count() / trials.count() * 100);
-        var rt = Math.round(correct_trials.select('rt').mean());
-
-        return `<p>You responded correctly on ${accuracy}% of the trials.</p>
-          <p>Your average response time was ${rt}ms.</p>
-          <p>Press any key to complete the experiment. Thank you!</p>`;
-
+        return !correct;
       }
     };
-    timeline.push(debrief_block);
+
+    var test = {
+      type: jsPsychImageKeyboardResponse,
+      stimulus: function () {
+        let room =  jsPsych.timelineVariable('room');
+        let direction =  jsPsych.timelineVariable('direction');
+
+        return 'img/' +  trialOutcome(room, direction) + direction + 'way.png';
+      },
+    };
+
+    /* define test procedure */
+    var training_procedure = {
+      timeline: [fixation, test],
+      timeline_variables: train_stimuli,
+      repetitions: 1
+    };
+    timeline.push(training_procedure);
+
+    var test_stimuli = jsPsych.randomization.factorial({
+      outcome: ['score', 'miss'],
+      room: ['orange', 'purple'],
+      prompt:['remember', 'what if?', 'cause']
+    }, 1)
+
+
+    var checkprompt = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: jsPsych.timelineVariable('stimulus'),
+    };
+
+    var checkquestion = {
+      type: jsPsychImageKeyboardResponse,
+      stimulus: function () {
+        let prompt =  jsPsych.timelineVariable('prompt');
+        let direction =  jsPsych.timelineVariable('direction');
+        let room =  jsPsych.timelineVariable('room');
+
+        if (prompt ==  'remember')
+          return 'Did you move the ball this way or that way?';
+        if (prompt ==  'what if?')
+          return 'Would the ball have scored if you moved ' + otherDirection(direction) + ' way?';
+        if (prompt ==  'cause')
+          return 'Did you move the ball this way or that way?';
+      },
+      choices: ['ArrowRight', 'ArrowLeft'],
+    };
 
     jsPsych.run(timeline);
+
   </script>
 </html>

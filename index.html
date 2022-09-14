@@ -184,7 +184,6 @@ var test = {
   stimulus: function () {
     let room =  jsPsych.timelineVariable('room');
     let direction =  jsPsych.timelineVariable('direction');
-
     return ['video/' +  trialOutcome(room, direction) + direction + 'way.mp4'];
   },
 };
@@ -205,9 +204,8 @@ var test_stimuli = jsPsych.randomization.factorial({
 
 var checkprompt = {
   type: jsPsychHtmlKeyboardResponse,
-  stimulus: jsPsych.timelineVariable('stimulus'),
+  stimulus: function () { '<p>' + jsPsych.timelineVariable('prompt') + '</p>' },
 };
-//timeline.push(checkprompt);
 
 var checkquestion = {
   type: jsPsychImageKeyboardResponse,
@@ -225,7 +223,13 @@ var checkquestion = {
   },
   choices: ['ArrowRight', 'ArrowLeft'],
 };
-//timeline.push(checkquestion);
+
+var test_procedure = {
+  timeline: [fixation, test, checkprompt, checkquestion],
+  timeline_variables: test_stimuli,
+  repetitions: 1
+};
+//timeline.push(test_procedure);
 
 jsPsych.run(timeline);
 

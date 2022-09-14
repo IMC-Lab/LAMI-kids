@@ -16,7 +16,9 @@
 var jsPsych = initJsPsych({
   on_finish: function() {
     jsPsych.data.displayData();
-  }
+  },
+  // override_safe_mode: true,
+
 });
 
 
@@ -55,7 +57,7 @@ stimulus: `<p>In this experiment, we are building a new game!</p><p>We need kids
     <p> Do you think you could help by trying it out?</p>
     <p> You will be playing by moving this <strong> yellow ball.</strong>
     <div style='width: 700px;'>
-    <div style='float: center;'><img src='img/lami-kids-choice.png'></img>
+    <div style='float: center;'><img src='img/lami-kids-choice.png' width = "500"></img>
     <p class='small'><strong>This is your ball!</strong></p></div>
     <p>Press any key to continue.</p>`,
 };
@@ -68,7 +70,7 @@ var meetballthisway = {
     <div style='width: 700px;'>
     <div style='float: left;'><img src='img/thisarrow.png'></img>
     <p class='small'><strong>Move this way!</strong></p></div>
-    <div style='float: center;'><img src='img/blue.png'></img>
+    <div style='float: center;'><img src='img/lami-kids-choice.png' width= "400"></img>
     </div>
     <p>Press the correct button to move the ball this way.</p>`,
   choices: ['ArrowLeft']
@@ -82,7 +84,7 @@ var meetballthatway = {
     <div style='width: 700px;'>
     <div style='float: right;'><img src='img/thatarrow.png'></img>
     <p class='small'><strong>Move that way!</strong></p></div>
-    <div style='float: center;'><img src='img/blue.png'></img>
+    <div style='float: center;'><img src='img/lami-kids-choice.png' width= "400"></img>
     </div>
     <p>Press the correct button to move the ball that way.</p>`,
   choices: ['ArrowRight']
@@ -92,12 +94,12 @@ timeline.push(meetballthatway);
 var meetgamerooms = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `<p>In the game, you want the ball to score in the red goal, and then the goal will turn green. Nice job! </p>
-    <p>When you move the ball,  it will be in the blue room or the pink room, which can block you from scoring. If the ball hits the purple or orange walls, the ball won't score  in  the goal.</p>
+    <p>When you move the ball,  it will be in the blue room or the pink room, where there are walls which can block you from scoring. If the ball hits the orange wall, the ball won't score  in  the goal.</p>
     <p>This is what they look like:</p>
     <div style='width: 700px;'>
-    <div style='float: left;'><img src='img/blueroom.png'></img>
+    <div style='float: left;'><img src='img/blueroom.png' width= "350"></img>
     <p class='small'><strong>Blue Room</strong></p></div>
-    <div style='float: right;'><img src='img/pinkroom.png'></img>
+    <div style='position: absolute; left:780px;'><img src='img/pinkroom.png' width= "350"></img>
     <p class='small'><strong>Pink Room</strong></p></div>
     <p>Press any key to continue.</p>`,
 };
@@ -106,9 +108,8 @@ timeline.push(meetgamerooms);
 var meetturninggreen = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `
-    <p>This is what it looks like when the ball scores and the goal turns green:</p>
-    <div style='width: 700px;'>
-    <div style='float: left;'><img src='img/greengoal.webp'></img>
+    <p style='background-color: #00FF00; padding: 10px; border: 1px solid green;'>This is what it looks like when the ball scores: the goal turns green:</p>
+    <div style='width: 600px;'>
     <p class='small'><strong>You scored! Great job!</strong></p></div>
     <p>Press any key to continue.</p>`,
 };
@@ -198,15 +199,17 @@ timeline.push(training_procedure);
 
 var test_stimuli = jsPsych.randomization.factorial({
   outcome: ['score', 'miss'],
-  room: ['orange', 'purple'],
+  room: ['blue', 'pink'],
   prompt:['remember', 'what if?', 'cause']
 }, 1)
+  timeline.push(test_stimuli);
 
 
 var checkprompt = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: jsPsych.timelineVariable('stimulus'),
 };
+  timeline.push(checkprompt);
 
 var checkquestion = {
   type: jsPsychImageKeyboardResponse,
@@ -224,6 +227,7 @@ var checkquestion = {
   },
   choices: ['ArrowRight', 'ArrowLeft'],
 };
+  timeline.push(checkquestion);
 
 jsPsych.run(timeline);
 

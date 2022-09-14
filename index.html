@@ -180,7 +180,7 @@ var fixation = {
 
 var test = {
   type: jsPsychVideoKeyboardResponse,
-  width: 400, height: 300,
+  width: 600, height: 500,
   stimulus: function () {
     let room =  jsPsych.timelineVariable('room');
     let direction =  jsPsych.timelineVariable('direction');
@@ -192,7 +192,7 @@ var test = {
 var training_procedure = {
   timeline: [fixation, test],
   timeline_variables: train_stimuli,
-  repetitions: 1
+  repetitions: 2
 };
 timeline.push(training_procedure);
 

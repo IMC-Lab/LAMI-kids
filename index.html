@@ -202,14 +202,12 @@ var test_stimuli = jsPsych.randomization.factorial({
   room: ['blue', 'pink'],
   prompt:['remember', 'what if?', 'cause']
 }, 1)
-  timeline.push(test_stimuli);
-
 
 var checkprompt = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: jsPsych.timelineVariable('stimulus'),
 };
-  timeline.push(checkprompt);
+//timeline.push(checkprompt);
 
 var checkquestion = {
   type: jsPsychImageKeyboardResponse,
@@ -227,7 +225,7 @@ var checkquestion = {
   },
   choices: ['ArrowRight', 'ArrowLeft'],
 };
-  timeline.push(checkquestion);
+//timeline.push(checkquestion);
 
 jsPsych.run(timeline);
 

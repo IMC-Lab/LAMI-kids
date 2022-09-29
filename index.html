@@ -13,21 +13,40 @@
 <body></body>
 <script>
 
+
 var jsPsych = initJsPsych({
-  on_finish: function() {
-    jsPsych.data.displayData();
-  },
+  on_finish: async function(data) {
+    jsPsych.data.getDisplayElement().innerHTML = '<p> Thank you for playing our game! We would like to give you a certificate for your help with science!</p>' +
+    '<p> Saving your data now...' +
+     '<span id="done" style="visibility: hidden;">done!</span></p>';
+     //  Save data via HTTP POST
+    let dataToServer = {
+        'id': id,
+        'extension': 'csv',
+        'directory': 'data',
+        'experimentName': 'pilot',
+        'curData': data.csv()
+    };
+    await $.post("https://dibs-web01.vm.duke.edu/debrigard/LAMI-kids/save.php",
+                 dataToServer,
+                 function(data) {
+    	             document.getElementById('done').style.visibility = "visible";
+                 }).promise().catch(function () {
+                 });
+  }
   // override_safe_mode: true,
 
 });
 
-
+var id = jsPsych.randomization.randomID();
 var timeline = [];
 
 var preload = {
   type: jsPsychPreload,
   images: ['img/lami-kids-choice.png', 'img/pinkroom.png', 'img/blueroom.png',
-           'img/thisarrow.png', 'img/thatarrow.png', 'img/greengoal.webp'],
+           'img/thisarrow.png', 'img/thatarrow.png', 'img/greengoal.webp',
+           'img/greenthumbup.png', 'img/redthumbdown.png',
+           'img/pinkroomintro.png', 'img/blueroomintro.png'],
   video: ['video/missthisway.mp4', 'video/missthatway.mp4', 'video/scorethisway.mp4', 'video/scorethatway.mp4']
 };
 timeline.push(preload);
@@ -97,21 +116,27 @@ var meetgamerooms = {
     <p>When you move the ball,  it will be in the blue room or the pink room, where there are walls which can block you from scoring. If the ball hits the orange wall, the ball won't score  in  the goal.</p>
     <p>This is what they look like:</p>
     <div style='width: 700px;'>
-    <div style='float: left;'><img src='img/blueroom.png' width= "350"></img>
+    <div style='float: left;'><img src='img/blueroomintro.png' width= "350"></img>
     <p class='small'><strong>Blue Room</strong></p></div>
-    <div style='position: absolute; left:780px;'><img src='img/pinkroom.png' width= "350"></img>
+    <div style='position: absolute; left:780px;'><img src='img/pinkroomintro.png' width= "350"></img>
     <p class='small'><strong>Pink Room</strong></p></div>
     <p>Press any key to continue.</p>`,
 };
 timeline.push(meetgamerooms);
 
 var meetturninggreen = {
-  type: jsPsychHtmlKeyboardResponse,
-  stimulus: `
-    <p style='background-color: #00FF00; padding: 10px; border: 1px solid green;'>This is what it looks like when the ball scores: the goal turns green:</p>
-    <div style='width: 600px;'>
-    <p class='small'><strong>You scored! Great job!</strong></p></div>
-    <p>Press any key to continue.</p>`,
+  type: jsPsychVideoKeyboardResponse,
+  stimulus: ['video/scorethatway.mov']
+  `<p>This is what it looks like to score in the blue room, the goal will turn green. Great Job! </p>
+  <p>Press any key to continue </p>`,
+};
+timeline.push(meetturninggreen);
+
+var meetturninggreen = {
+  type: jsPsychVideoKeyboardResponse,
+  stimulus:['video/scorethisway.mp4'],
+  `<p>This is what it looks like to score in the blue room, the goal will turn green. Great Job! </p>
+  <p>Press any key to continue </p>`,
 };
 timeline.push(meetturninggreen);
 
@@ -134,6 +159,12 @@ function otherDirection(direction) {
   if (direction == 'this')
     return 'that';
   return 'this';
+}
+
+function LRtoThisThat(directionLR) {
+  if (directionLR.toLowerCase() == 'arrowleft')
+    return 'this';
+  return 'that';
 }
 
 /* define trial stimuli array for timeline variables */
@@ -178,58 +209,105 @@ var fixation = {
   }
 };
 
-var test = {
+var training = {
   type: jsPsychVideoKeyboardResponse,
   width: 600, height: 500,
+  trial_ends_after_video: true,
   stimulus: function () {
     let room =  jsPsych.timelineVariable('room');
     let direction =  jsPsych.timelineVariable('direction');
     return ['video/' +  trialOutcome(room, direction) + direction + 'way.mp4'];
   },
+  //choices: ['NO_KEYS']
 };
 
 /* define test procedure */
 var training_procedure = {
-  timeline: [fixation, test],
+  timeline: [fixation, training],
   timeline_variables: train_stimuli,
-  repetitions: 2
+  repetitions: 1
 };
 timeline.push(training_procedure);
 
 var test_stimuli = jsPsych.randomization.factorial({
   outcome: ['score', 'miss'],
-  room: ['blue', 'pink'],
-  prompt:['remember', 'what if?', 'cause']
-}, 1)
+  prompt:['Remember', 'What If?', 'Cause']
+}, 2);
 
-var checkprompt = {
-  type: jsPsychHtmlKeyboardResponse,
-  stimulus: function () { '<p>' + jsPsych.timelineVariable('prompt') + '</p>' },
+var fixationtest = {
+  timeline: [{
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: function() {
+      let room =  jsPsych.timelineVariable('room');
+      let direction =  jsPsych.timelineVariable('direction');
+      return  `<p>Do you want the ball to go this way or that way?</p>
+      <div style='float: center;'><img src='img/lami-kids-choice.png' width= "400"></img>
+      </div>`;
+    },
+    choices: ['ArrowRight', 'ArrowLeft']
+  }],
 };
 
-var checkquestion = {
-  type: jsPsychImageKeyboardResponse,
+var test = {
+  type: jsPsychVideoKeyboardResponse,
+  width: 600, height: 500,
+  trial_ends_after_video: true,
+  stimulus: function () {
+    let outcome =  jsPsych.timelineVariable('outcome');
+    let direction = LRtoThisThat(jsPsych.data.getLastTrialData().trials[0].response);
+
+    console.log(outcome);
+    console.log(jsPsych.data.getLastTrialData().trials[0]);
+
+    return ['video/' + outcome + direction + 'way.mp4'];
+  },
+  choices: ['NO_KEYS']
+};
+
+function trialRoom(outcome, direction) {
+  let room = 'blue';
+  if ((outcome=='score' && direction=='this') ||
+      (outcome=='miss' && direction=='that'))
+      room = 'pink';
+  return room;
+}
+
+var testprompt = {
+  type: jsPsychHtmlKeyboardResponse,
+  trial_duration: 2000,
+  stimulus: function () { return '<p>' + jsPsych.timelineVariable('prompt') + '</p>' },
+  choices: ['NO_KEYS']
+};
+
+var testquestion = {
+  type: jsPsychHtmlKeyboardResponse,
   stimulus: function () {
     let prompt =  jsPsych.timelineVariable('prompt');
-    let direction =  jsPsych.timelineVariable('direction');
-    let room =  jsPsych.timelineVariable('room');
+    let outcome =  jsPsych.timelineVariable('outcome');
+    let direction = LRtoThisThat(jsPsych.data.get().last(3).values()[0].response);
 
-    if (prompt ==  'remember')
-      return 'Did you move the ball this way or that way?';
-    if (prompt ==  'what if?')
-      return 'Would the ball have scored if you moved ' + otherDirection(direction) + ' way?';
-    if (prompt ==  'cause')
-      return 'Did you move the ball this way or that way?';
+    if (prompt == 'Remember')
+      return `<p>Did you move the ball this way or that way?</p>
+      <div style='float: left;'><img src='img/thisarrow.png'></img></div>
+      <div style='float: right;'><img src='img/thatarrow.png'></img></div>`;
+    if (prompt == 'What If?')
+      return 'Would the ball have scored if you moved ' + otherDirection(direction) + ' way?' +
+      `<div style='float: left;'><img src='img/greenthumbup.png'></img></div>
+      <div style='float: right;'><img src='img/redthumbdown.png'></img></div>`;
+    if (prompt == 'Cause')
+      return 'What made the ball' + outcome + '?' +
+      `<div style='float: left;'><img src='img/thisarrow.png'></img></div>
+      <div style='float: right;'><img src='img/thatarrow.png'></img></div>`;
   },
-  choices: ['ArrowRight', 'ArrowLeft'],
+  choices: ['ArrowRight', 'ArrowLeft']
 };
 
 var test_procedure = {
-  timeline: [fixation, test, checkprompt, checkquestion],
+  timeline: [fixationtest, test, testprompt, testquestion],
   timeline_variables: test_stimuli,
   repetitions: 1
 };
-//timeline.push(test_procedure);
+timeline.push(test_procedure);
 
 jsPsych.run(timeline);
 

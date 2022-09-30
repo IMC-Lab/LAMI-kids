@@ -73,9 +73,7 @@ timeline.push(consent);
 
 var meettheball = {
 type: jsPsychHtmlKeyboardResponse,
-stimulus: `<p>In this experiment, we are building a new game!</p><p>We need kids who <strong>love playing games</strong>
-    to help us make it a good one.</p>
-    <p> Do you think you could help by trying it out?</p>
+stimulus: `<p>In this experiment, we are building a new game!</p>
     <p> You will be playing by moving this <strong> yellow ball.</strong> You want the ball to score in the goal at the top of the screen!</p>
     <div style='width: 1000px;'>
     <div style='float: center;'><img src='img/LAMI-kids-start.png' width = "500"></img>
@@ -86,8 +84,8 @@ timeline.push(meettheball);
 
 var meetballthisway = {
   type: jsPsychHtmlKeyboardResponse,
-  stimulus: `<p>In the game you will try today, you can move the ball <strong>this way</strong> or <strong>that way</strong>, to the left or the right.</p>
-    <p>If you press this button on this side, the ball will go <strong>this way</strong>, to the left.</p>
+  stimulus: `<p>In the game you will try today, you can move the ball in two different ways. One way you can move the ball is <strong>this way</strong>, to the left.</p>
+    <p>If you press this button for the arrow that points this way, to the left, the ball will go <strong>this way</strong>.</p>
     <div style='width: 700px;'>
     <p class='small'><strong>Move this way!</strong></p></div>
     <div style='float: center;'><img src='img/LAMI-kids-start-left-arrow.png' width= "400"></img>
@@ -113,7 +111,7 @@ timeline.push(meetballthatway);
 var meetgamerooms = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `<p>In the game, you want the ball to score in the <span style= "color:red">red goal</span> at the top of the screen here.</p>
-    <p>When you move the ball,  it could go in the <span style= "color:blue">blue room</span> or the <span style= "color:#FF69B4">pink room</span>.</p>
+    <p>When you play, the ball will either be in the <span style= "color:blue">blue room</span> or the <span style= "color:#FF69B4">pink room</span>.</p>
     <p>This is what the rooms look like:</p>
     <div style='width: 700px;'>
     <div style='border: 10px; float: left;'><img src='img/LAMI-kids-blue.png' width= "300"></img>
@@ -294,10 +292,21 @@ var training_procedure = {
 };
 timeline.push(training_procedure);
 
+var IntrotoQuestions = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus:`
+  <p> After you see whether the ball scores or misses, you will be asked a question. To pick your answer, choose the arrow button on the same side as the correct response.</p>
+  <p>If you are asked <strong>Remember</strong>, your question will ask you to remember which way the ball moved.</p>
+  <p>If you are asked <strong>What if?</strong>, your question will ask you to answer what would have happened if that ball had gone the other way.</p>
+  <p>If you are asked <strong>Cause</strong>, your question will ask you to answer what caused the ball to score or miss.</p>
+  <p>Press any key to continue </p>`,
+};
+timeline.push(IntrotoQuestions);
+
 var IntrotoTest = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus:`
-  <p>Nice job! Are you ready to play? Now you get to choose which way the ball will move, but you <strong>won't know which room the ball will be in</strong>! Try to make the ball score! </p>
+  <p>Nice job! Are you ready to play? Now you get to choose which way the ball will move, but you <strong>won't know which room the ball will be in</strong>! Try to make the ball score! Do you have any questions? </p>
   <p>Press any key to continue </p>`,
 };
 timeline.push(IntrotoTest);
@@ -318,7 +327,9 @@ var fixationtest = {
       let room =  jsPsych.timelineVariable('room');
       let direction =  jsPsych.timelineVariable('direction');
       return  `<p>Do you want the ball to go this way or that way?</p>
+      <p>This way</p>
       <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= "400"></img>
+      <p>That way</p>
       </div>`;
     },
     choices: ['ArrowRight', 'ArrowLeft']

@@ -18,11 +18,14 @@
   height: 600px;
   border: 2px solid black;
   display: flex;
+  margin: auto;
 }
 
 #experimentInner {
-  width: 100%;
+  width: 110%;
   height: 100%;
+  margin: 0;
+  overflow: hidden;
 }
 </style>
 
@@ -117,7 +120,8 @@ timeline.push(meetballthisway);
 var meetballthatway = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `<p>You can also move the ball <strong>that way</strong>, to the right.</p>
-    <p>If you press that button on that side, the ball will go <strong>that way</strong>.</p>
+    <p>f you press this button for the arrow that points that way, to the right, the ball will go <strong>that way</strong>.</p>
+    <br>
     <div style='display: inline-block; width: 600px; text-align: right;'><p><strong>Move that way!</strong></p></div>
     <div style='float: center;'><img src='img/LAMI-kids-start-right-arrow.png' width= "400"></img>
     </div>
@@ -298,7 +302,7 @@ var fixation = {
 
 var training = {
   type: jsPsychVideoKeyboardResponse,
-  width: 800, height: 600,
+  margin: 0,
   trial_ends_after_video: true,
   stimulus: function () {
     let room =  jsPsych.timelineVariable('room');
@@ -365,7 +369,7 @@ var fixationtest = {
 
 var test = {
   type: jsPsychVideoKeyboardResponse,
-  //width: 800, height: 600,
+  width: 800, height: 600,
   trial_ends_after_video: true,
   stimulus: function () {
     let outcome =  jsPsych.timelineVariable('outcome');

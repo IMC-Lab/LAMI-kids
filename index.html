@@ -13,6 +13,10 @@
 </head>
 
 <style>
+.video-content  {
+  max-width: 100%;
+}
+
 #experimentOuter {
   width: 800px;
   height: 600px;
@@ -22,7 +26,7 @@
 }
 
 #experimentInner {
-  width: 110%;
+  width: 100%;
   height: 100%;
   margin: 0;
   overflow: hidden;
@@ -120,7 +124,7 @@ timeline.push(meetballthisway);
 var meetballthatway = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `<p>You can also move the ball <strong>that way</strong>, to the right.</p>
-    <p>f you press this button for the arrow that points that way, to the right, the ball will go <strong>that way</strong>.</p>
+    <p>If you press this button for the arrow that points that way, to the right, the ball will go <strong>that way</strong>.</p>
     <br>
     <div style='display: inline-block; width: 600px; text-align: right;'><p><strong>Move that way!</strong></p></div>
     <div style='float: center;'><img src='img/LAMI-kids-start-right-arrow.png' width= "400"></img>
@@ -302,13 +306,19 @@ var fixation = {
 
 var training = {
   type: jsPsychVideoKeyboardResponse,
-  margin: 0,
+  autoplay: true,
   trial_ends_after_video: true,
   stimulus: function () {
     let room =  jsPsych.timelineVariable('room');
     let direction =  jsPsych.timelineVariable('direction');
     return ['video/' +  trialOutcome(room, direction) + direction + 'way.mp4'];
   },
+  on_load: function () {
+    document.getElementById('jspsych-content').classList.add('video-content');
+  },
+  on_finish: function () {
+    document.getElementById('jspsych-content').classList.remove('video-content');
+  }
   //choices: ['NO_KEYS']
 };
 
@@ -320,13 +330,33 @@ var training_procedure = {
 };
 timeline.push(training_procedure);
 
+var IntrotoPrompts = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus:`
+  <p> After you see whether the ball scores or misses, you will be given a prompt. This will tell you what you should be thinking about.</p>
+  <p>If you are asked <strong>Remember</strong>, try to remember which way the ball moved in the blank square.</p>
+  <p>If you are asked <strong>What if?</strong>, try to see what would have happened if that ball had gone the other way in the blank square.</p>
+  <p>If you are asked <strong>Cause</strong>, try to see what caused the ball to score or miss in the blank square.</p>
+  <p>Press any key to continue </p>`,
+};
+timeline.push(IntrotoPrompts);
+
+var IntrotoSimulation = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus:`
+  <p> When you see an empty screen  with nothing on it, you should use it to try to picture what you remember, what would have happened, or what the cause was. Try to imagine what would happen with the ball! </p>
+  <p> If you see "What if?", what will you trty to imagine on the screen? </p>
+  <p>Press any key to continue </p>`,
+};
+timeline.push(IntrotoSimulation);
+
 var IntrotoQuestions = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus:`
   <p> After you see whether the ball scores or misses, you will be asked a question. To pick your answer, choose the arrow button on the same side as the correct response.</p>
-  <p>If you are asked <strong>Remember</strong>, your question will ask you to remember which way the ball moved.</p>
-  <p>If you are asked <strong>What if?</strong>, your question will ask you to answer what would have happened if that ball had gone the other way.</p>
-  <p>If you are asked <strong>Cause</strong>, your question will ask you to answer what caused the ball to score or miss.</p>
+  <p>If you were asked <strong>Remember</strong>, your question will ask you to remember which way the ball moved.</p>
+  <p>If you were asked <strong>What if?</strong>, your question will ask you to answer what would have happened if that ball had gone the other way.</p>
+  <p>If you were asked <strong>Cause</strong>, your question will ask you to answer what caused the ball to score or miss.</p>
   <p>Press any key to continue </p>`,
 };
 timeline.push(IntrotoQuestions);
@@ -343,6 +373,9 @@ var test_stimuli = jsPsych.randomization.factorial({
   outcome: ['score', 'miss'],
   prompt:['Remember', 'What If?', 'Cause']
 }, 2);
+for (i in [...Array(d.length).keys()]) {
+  d[i].trial_num = i + 1;
+}
 
 if (DEV) {
   test_stimuli = [test_stimuli[1]];
@@ -365,6 +398,7 @@ var fixationtest = {
     },
     choices: ['ArrowRight', 'ArrowLeft']
   }],
+  data: { id: 'fixationtest' }
 };
 
 var test = {
@@ -376,7 +410,8 @@ var test = {
     let direction = LRtoThisThat(jsPsych.data.getLastTrialData().trials[0].response);
     return ['video/' + outcome + direction + 'way.mp4'];
   },
-  choices: ['NO_KEYS']
+  choices: ['NO_KEYS'],
+  data: { id: 'test' }
 };
 
 function trialRoom(outcome, direction) {
@@ -391,14 +426,16 @@ var testprompt = {
   type: jsPsychHtmlKeyboardResponse,
   trial_duration: 2000,
   stimulus: function () { return '<p>' + jsPsych.timelineVariable('prompt') + '</p>' },
-  choices: ['NO_KEYS']
+  choices: ['NO_KEYS'],
+  data: { id: 'testprompt' }
 };
 
 var simulationbox = {
     type: jsPsychHtmlKeyboardResponse,
     trial_duration: 6000,
     stimulus: '',
-    choices: ['NO_KEYS']
+    choices: ['NO_KEYS'],
+    data: { id: 'simulationbox' }
 }
 
 var testquestion = {
@@ -424,13 +461,21 @@ var testquestion = {
       <div style='float: right;'><img src='img/LAMI-kids-` + room + `.png' width= "300"></img></div>
       </div>`
   },
-  choices: ['ArrowRight', 'ArrowLeft']
+  choices: ['ArrowRight', 'ArrowLeft'],
+  data: { id: 'testquestion' }
 };
 
 var test_procedure = {
   timeline: [fixationtest, test, testprompt, simulationbox, testquestion],
   timeline_variables: test_stimuli,
-  repetitions: 1
+  repetitions: 1,
+  data: function () {
+    return {
+      stage: 'test',
+      outcome: jsPsych.timelineVariable('outcome'),
+      prompt: jsPsych.timelineVariable('prompt')
+   }
+  }
 };
 timeline.push(test_procedure);
 

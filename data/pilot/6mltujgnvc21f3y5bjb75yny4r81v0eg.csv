@@ -1,0 +1,215 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","rt","stimulus","response"
+"true","false","[]","[]","[]","preload","0","20","0.0-0.0","","",""
+"","","","","","html-keyboard-response","1","110147","0.0-1.0","110127","Hi there! Welcome to the experiment. Press any key to begin."," "
+"","","","","","html-keyboard-response","2","126740","0.0-2.0","16593","<p>Before we get started, here is information about <strong>consent</strong>.</p>
+    <p> <strong>Parent or Guardian</strong>: This is a practice round to see whether participants between 5-7 years old understand the study, answer the questions accurately, and stay attentive.</p>
+    <p> This data will not be used other than for informal interpretation to improve the study design. The participant is welcome to stop whenever, and will always remain anonymous.</p>
+    <p> The experiment should take no more than <strong>15 minutes</strong>.</p>
+    <p> Do you consent to continuing with the experiment? </p>
+    <p> <strong> Participant</strong>: Do you want to play? You are  welcome to stop whenever! </p>
+    <p>Press any key to begin.</p>"," "
+"","","","","","html-keyboard-response","3","146189","0.0-3.0","19449","<p>In this experiment, we are building a new game!</p>
+    <p> You will be playing by moving this <strong> yellow ball.</strong> You want the ball to score in the goal at the top of the screen!</p>
+    <div style='width: 1000px;'>
+    <div style='float: center;'><img src='img/LAMI-kids-start.png' width = ""500""></img>
+    <p class='small'><strong>This is your ball!</strong></p></div>
+    <p>Press any key to continue.</p>","c"
+"","","","","","html-keyboard-response","4","162440","0.0-4.0","16250","<p>In the game you will try today, you can move the ball in two different ways. One way you can move the ball is <strong>this way</strong>, to the left.</p>
+    <p>If you press this button for the arrow that points this way, to the left, the ball will go <strong>this way</strong>.</p>
+    <div style='width: 700px;'>
+    <p class='small'><strong>Move this way!</strong></p></div>
+    <div style='float: center;'><img src='img/LAMI-kids-start-left-arrow.png' width= ""400""></img>
+    </div>
+    <p>Press the correct button to move the ball this way.</p>","arrowleft"
+"","","","","","html-keyboard-response","5","170585","0.0-5.0","8145","<p>You can also move the ball <strong>that way</strong>, to the right.</p>
+    <p>If you press that button on that side, the ball will go <strong>that way</strong>.</p>
+    <div style='width: 700px;'>
+    <p class='small'><strong>Move that way!</strong></p></div>
+    <div style='float: center;'><img src='img/LAMI-kids-start-right-arrow.png' width= ""400""></img>
+    </div>
+    <p>Press the correct button to move the ball that way.</p>","arrowright"
+"","","","","","html-keyboard-response","6","190863","0.0-6.0","20277","<p>In the game, you want the ball to score in the <span style= ""color:red"">red goal</span> at the top of the screen here.</p>
+    <p>When you play, the ball will either be in the <span style= ""color:blue"">blue room</span> or the <span style= ""color:#FF69B4"">pink room</span>.</p>
+    <p>This is what the rooms look like:</p>
+    <div style='width: 700px;'>
+    <div style='border: 10px; float: left;'><img src='img/LAMI-kids-blue.png' width= ""300""></img>
+    <p class='small'><strong>This is the Blue Room</strong></p></div>
+    <div style='padding-left: 10px; float: right;'><img src='img/LAMI-kids-pink.png' width= ""300""></img>
+    <p class='small'><strong>This is the Pink Room</strong></p></div>
+    <p>Press any key to continue.</p>","arrowleft"
+"","","","","","html-keyboard-response","7","207576","0.0-7.0","16712","<p>Both rooms have an <span style= ""color:orange"">orange wall</span> that can block the ball from scoring in the goal.</p>
+    <p>If the ball hits the <span style= ""color:orange"">orange wall</span>, the ball won't score  in  the goal, it will miss.</p>
+    <div style='width: 700px;'>
+    <div style='float: left;'><img src='img/LAMI-kids-blue-wall.png' width= ""300""></img>
+    <p class='small'><strong>The <span style= ""color:orange"">orange wall</span> in the Blue Room</strong></p></div>
+    <div style='float:right;'><img src='img/LAMI-kids-pink-wall.png' width= ""300""></img>
+    <p class='small'><strong>The <span style= ""color:orange"">orange wall</span> in the Pink Room</strong></p></div>
+    <p>Press any key to continue.</p>"," "
+"","","","","","html-keyboard-response","8","216813","0.0-8.0","9235","
+  <p>This is what it looks like to score in the blue room, the goal will turn green. Great Job! </p>
+  <div style='float: center;'><video src='video/scorethatway.mp4' width= ""700"" height=""525"" autoplay loop></video>
+  <p>Press any key to continue </p>"," "
+"","","","","","html-keyboard-response","9","229387","0.0-9.0","12571","<p>This is what it looks like to miss in the blue room, the goal will stay red. Uh Oh, no score this time! </p>
+  <div style='float: center;'><video src='video/missthisway.mp4' width= ""700"" height=""525"" autoplay loop></video>
+  <p>Press any key to continue </p>"," "
+"","","","","","html-keyboard-response","10","235449","0.0-10.0","6060","<p> So if the ball is in the <span style= ""color:blue"">blue room</span>, and you choose <strong> this way</strong>, the ball will miss. If you choose <strong>that way</strong> in the blue room, the ball will score. </p>
+  <div style='padding-right: 100px; float: center;'><video src='video/missthisway.mp4' width= ""300"" autoplay loop></video>
+  <div style='padding-left: 100px; float: right;'><video src='video/scorethatway.mp4' width= ""300"" autoplay loop></video></div>
+  <p>Press any key to continue </p>"," "
+"","","","","","html-keyboard-response","11","243459","0.0-11.0","8008","
+  <p>This is what it looks like to score in the pink room, the goal will turn green. Great Job! </p>
+  <div style='float: center;'><video src='video/scorethisway.mp4' width= ""700"" height=""525"" autoplay loop></video>
+  <p>Press any key to continue </p>"," "
+"","","","","","html-keyboard-response","12","253750","0.0-12.0","10284","<p>This is what it looks like to miss in the pink room, the goal will stay red. Uh Oh, no score this time! </p>
+  <div style='float: center;'><video src='video/missthatway.mp4' width= ""700"" height=""525"" autoplay loop></video>
+  <p>Press any key to continue </p>"," "
+"","","","","","html-keyboard-response","13","262255","0.0-13.0","8493","<p> So if the ball is in the <span style= ""color:#FF69B4"">pink room</span>, and you choose <strong> this way</strong>, the ball will score. If you choose <strong>that way</strong> in the pink room, the ball will miss. </p>
+  <div style='padding-right: 100px; float: center;'><video src='video/scorethisway.mp4' width= ""300"" autoplay loop></video>
+  <div style='padding-left: 100px; float: right;'><video src='video/missthatway.mp4' width= ""300"" autoplay loop></video></div>
+  <p>Press any key to continue </p>"," "
+"","","","","","html-keyboard-response","14","275097","0.0-14.0","12836","
+  <p>Let's Practice! We will tell you what room you are in, and ask you to either go <strong>this way or that way</strong>, left or right. Then you can see what happens! </p>
+  <p>Press any key to continue </p>"," "
+"","","","","","html-keyboard-response","15","284310","0.0-15.0-0.0-0.0","9209","You are in the pink room.
+Let's  see  what happens if you go this  way!","arrowright"
+"","","","","","html-keyboard-response","16","292287","0.0-15.0-0.1-0.1","3194","You are in the pink room.
+Let's  see  what happens if you go this  way!","arrowleft"
+"","","","","","video-keyboard-response","17","299848","0.0-15.0-1.0","7557","[""video/scorethisway.mp4""]"," "
+"","","","","","html-keyboard-response","18","309568","0.0-15.0-0.2-0.2","9720","You are in the blue room.
+Let's  see  what happens if you go that  way!","arrowright"
+"","","","","","video-keyboard-response","19","319590","0.0-15.0-1.1","null","[""video/scorethatway.mp4""]","null"
+"","","","","","html-keyboard-response","20","327861","0.0-15.0-0.3-0.3","8270","You are in the blue room.
+Let's  see  what happens if you go this  way!","arrowright"
+"","","","","","html-keyboard-response","21","333753","0.0-15.0-0.4-0.4","1704","You are in the blue room.
+Let's  see  what happens if you go this  way!","arrowleft"
+"","","","","","video-keyboard-response","22","343770","0.0-15.0-1.2","null","[""video/missthisway.mp4""]","null"
+"","","","","","html-keyboard-response","23","353837","0.0-15.0-0.5-0.5","10066","You are in the pink room.
+Let's  see  what happens if you go that  way!","arrowleft"
+"","","","","","html-keyboard-response","24","360975","0.0-15.0-0.6-0.6","3078","You are in the pink room.
+Let's  see  what happens if you go that  way!","arrowright"
+"","","","","","video-keyboard-response","25","370992","0.0-15.0-1.3","null","[""video/missthatway.mp4""]","null"
+"","","","","","html-keyboard-response","26","409057","0.0-16.0","38065","
+  <p> After you see whether the ball scores or misses, you will be asked a question. To pick your answer, choose the arrow button on the same side as the correct response.</p>
+  <p>If you are asked <strong>Remember</strong>, your question will ask you to remember which way the ball moved.</p>
+  <p>If you are asked <strong>What if?</strong>, your question will ask you to answer what would have happened if that ball had gone the other way.</p>
+  <p>If you are asked <strong>Cause</strong>, your question will ask you to answer what caused the ball to score or miss.</p>
+  <p>Press any key to continue </p>"," "
+"","","","","","html-keyboard-response","27","416193","0.0-17.0","7136","
+  <p>Nice job! Are you ready to play? Now you get to choose which way the ball will move, but you <strong>won't know which room the ball will be in</strong>! Try to make the ball score! Do you have any questions? </p>
+  <p>Press any key to continue </p>"," "
+"","","","","","html-keyboard-response","28","437880","0.0-18.0-0.0-0.0","21686","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowleft"
+"","","","","","video-keyboard-response","29","447905","0.0-18.0-1.0","null","[""video/scorethisway.mp4""]","null"
+"","","","","","html-keyboard-response","30","449908","0.0-18.0-2.0","null","<p>Remember</p>","null"
+"","","","","","html-keyboard-response","31","454523","0.0-18.0-3.0","4613","<p>Did you move the ball this way or that way?</p>
+      <div style='padding: 20px; float: left;'><img src='img/thisarrow.png'></img></div>
+      <div style='padding: 20px; float: right;'><img src='img/thatarrow.png'></img></div>","arrowleft"
+"","","","","","html-keyboard-response","32","460139","0.0-18.0-0.1-0.1","5615","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowright"
+"","","","","","video-keyboard-response","33","470147","0.0-18.0-1.1","null","[""video/missthatway.mp4""]","null"
+"","","","","","html-keyboard-response","34","472153","0.0-18.0-2.1","null","<p>Remember</p>","null"
+"","","","","","html-keyboard-response","35","474021","0.0-18.0-3.1","1867","<p>Did you move the ball this way or that way?</p>
+      <div style='padding: 20px; float: left;'><img src='img/thisarrow.png'></img></div>
+      <div style='padding: 20px; float: right;'><img src='img/thatarrow.png'></img></div>","arrowright"
+"","","","","","html-keyboard-response","36","480228","0.0-18.0-0.2-0.2","6206","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowright"
+"","","","","","video-keyboard-response","37","490240","0.0-18.0-1.2","null","[""video/scorethatway.mp4""]","null"
+"","","","","","html-keyboard-response","38","492245","0.0-18.0-2.2","null","<p>Cause</p>","null"
+"","","","","","html-keyboard-response","39","506159","0.0-18.0-3.2","13912","What made the ball score?<div style='position: absolute; left: 250px'><img src='img/LAMI-kids-ball.png'></img></div>
+      <div style='position: absolute; left: 600px; top: 400 px'><img src='img/LAMI-kids-blue.png' width = ""300px""></img></div>
+      <div style='position: absolute; left: 600px; bottom: 100 px;'><img src='img/LAMI-kids-pink.png' width = ""300px""></img></div>","arrowleft"
+"","","","","","html-keyboard-response","40","511657","0.0-18.0-0.3-0.3","5498","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowright"
+"","","","","","video-keyboard-response","41","521678","0.0-18.0-1.3","null","[""video/missthatway.mp4""]","null"
+"","","","","","html-keyboard-response","42","523684","0.0-18.0-2.3","null","<p>Cause</p>","null"
+"","","","","","html-keyboard-response","43","535652","0.0-18.0-3.3","11968","What made the ball miss?<div style='position: absolute; left: 250px'><img src='img/LAMI-kids-ball.png'></img></div>
+      <div style='position: absolute; left: 600px; top: 400 px'><img src='img/LAMI-kids-blue.png' width = ""300px""></img></div>
+      <div style='position: absolute; left: 600px; bottom: 100 px;'><img src='img/LAMI-kids-pink.png' width = ""300px""></img></div>","arrowright"
+"","","","","","html-keyboard-response","44","544322","0.0-18.0-0.4-0.4","8669","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowleft"
+"","","","","","video-keyboard-response","45","554330","0.0-18.0-1.4","null","[""video/missthisway.mp4""]","null"
+"","","","","","html-keyboard-response","46","556336","0.0-18.0-2.4","null","<p>Cause</p>","null"
+"","","","","","html-keyboard-response","47","563617","0.0-18.0-3.4","7280","What made the ball miss?<div style='position: absolute; left: 250px'><img src='img/LAMI-kids-ball.png'></img></div>
+      <div style='position: absolute; left: 600px; top: 400 px'><img src='img/LAMI-kids-blue.png' width = ""300px""></img></div>
+      <div style='position: absolute; left: 600px; bottom: 100 px;'><img src='img/LAMI-kids-pink.png' width = ""300px""></img></div>","arrowleft"
+"","","","","","html-keyboard-response","48","568091","0.0-18.0-0.5-0.5","4473","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowright"
+"","","","","","video-keyboard-response","49","578114","0.0-18.0-1.5","null","[""video/missthatway.mp4""]","null"
+"","","","","","html-keyboard-response","50","580119","0.0-18.0-2.5","null","<p>What If?</p>","null"
+"","","","","","html-keyboard-response","51","599090","0.0-18.0-3.5","18970","Would the ball have scored if you moved this way?<div style='float: center;'><img src='img/thumbsupdown.jpeg'></img></div>
+      ","arrowleft"
+"","","","","","html-keyboard-response","52","607639","0.0-18.0-0.6-0.6","8548","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowleft"
+"","","","","","video-keyboard-response","53","617647","0.0-18.0-1.6","null","[""video/missthisway.mp4""]","null"
+"","","","","","html-keyboard-response","54","619653","0.0-18.0-2.6","null","<p>Remember</p>","null"
+"","","","","","html-keyboard-response","55","625210","0.0-18.0-3.6","5556","<p>Did you move the ball this way or that way?</p>
+      <div style='padding: 20px; float: left;'><img src='img/thisarrow.png'></img></div>
+      <div style='padding: 20px; float: right;'><img src='img/thatarrow.png'></img></div>","arrowleft"
+"","","","","","html-keyboard-response","56","632526","0.0-18.0-0.7-0.7","7314","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowright"
+"","","","","","video-keyboard-response","57","642538","0.0-18.0-1.7","null","[""video/scorethatway.mp4""]","null"
+"","","","","","html-keyboard-response","58","644544","0.0-18.0-2.7","null","<p>What If?</p>","null"
+"","","","","","html-keyboard-response","59","654788","0.0-18.0-3.7","10244","Would the ball have scored if you moved this way?<div style='float: center;'><img src='img/thumbsupdown.jpeg'></img></div>
+      ","arrowleft"
+"","","","","","html-keyboard-response","60","667012","0.0-18.0-0.8-0.8","12223","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowleft"
+"","","","","","video-keyboard-response","61","677027","0.0-18.0-1.8","null","[""video/scorethisway.mp4""]","null"
+"","","","","","html-keyboard-response","62","679030","0.0-18.0-2.8","null","<p>Remember</p>","null"
+"","","","","","html-keyboard-response","63","682747","0.0-18.0-3.8","3716","<p>Did you move the ball this way or that way?</p>
+      <div style='padding: 20px; float: left;'><img src='img/thisarrow.png'></img></div>
+      <div style='padding: 20px; float: right;'><img src='img/thatarrow.png'></img></div>","arrowleft"
+"","","","","","html-keyboard-response","64","692502","0.0-18.0-0.9-0.9","9738","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowleft"
+"","","","","","video-keyboard-response","65","702508","0.0-18.0-1.9","null","[""video/scorethisway.mp4""]","null"
+"","","","","","html-keyboard-response","66","704511","0.0-18.0-2.9","null","<p>Cause</p>","null"
+"","","","","","html-keyboard-response","67","711353","0.0-18.0-3.9","6842","What made the ball score?<div style='position: absolute; left: 250px'><img src='img/LAMI-kids-ball.png'></img></div>
+      <div style='position: absolute; left: 600px; top: 400 px'><img src='img/LAMI-kids-blue.png' width = ""300px""></img></div>
+      <div style='position: absolute; left: 600px; bottom: 100 px;'><img src='img/LAMI-kids-pink.png' width = ""300px""></img></div>","arrowleft"
+"","","","","","html-keyboard-response","68","717773","0.0-18.0-0.10-0.10","6420","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowright"
+"","","","","","video-keyboard-response","69","727791","0.0-18.0-1.10","null","[""video/scorethatway.mp4""]","null"
+"","","","","","html-keyboard-response","70","729795","0.0-18.0-2.10","null","<p>What If?</p>","null"
+"","","","","","html-keyboard-response","71","737047","0.0-18.0-3.10","7251","Would the ball have scored if you moved this way?<div style='float: center;'><img src='img/thumbsupdown.jpeg'></img></div>
+      ","arrowleft"
+"","","","","","html-keyboard-response","72","742458","0.0-18.0-0.11-0.11","5410","<p>Do you want the ball to go this way or that way?</p>
+      <p style='position: absolute; left: 400px'>This way</p>
+      <div style='float: center;'><img src='img/LAMI-kids-start-both-arrows.jpg' width= ""400""></img>
+      <p style='position: absolute; left: 1000px; top: 300px'>That way</p>
+      </div>","arrowleft"
+"","","","","","video-keyboard-response","73","752474","0.0-18.0-1.11","null","[""video/missthisway.mp4""]","null"
+"","","","","","html-keyboard-response","74","754475","0.0-18.0-2.11","null","<p>What If?</p>","null"
+"","","","","","html-keyboard-response","75","759853","0.0-18.0-3.11","5377","Would the ball have scored if you moved that way?<div style='float: center;'><img src='img/thumbsupdown.jpeg'></img></div>
+      ","arrowright"

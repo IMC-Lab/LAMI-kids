@@ -72,12 +72,20 @@ var timeline = [];
 
 var preload = {
   type: jsPsychPreload,
-  images: ['img/LAMI-kids-ball.png', 'img/LAMI-kids-blue.png', 'img/LAMI-kids-pink.png',
-           'img/LAMI-kids-blue-wall.png', 'img/LAMI-kids-pink-wall.png', 'img/LAMI-kids-start.png',
-            'img/LAMI-kids-start-both-arrows.jpg',
-           'img/LAMI-kids-start-left-arrow.png', 'img/LAMI-kids-start-right-arrow.png',
+  images: ['img/LAMI-kids-start.png',
+  'img/LAMI-kids-start-right-arrow.png',
+  'img/LAMI-kids-start-left-arrow.png',
+  'img/LAMI-kids-start-both-arrows.jpg',
+  'img/LAMI-kids-pink.png',
+  'img/LAMI-kids-pink-wall.png',
+  'img/LAMI-kids-blue.png',
+  'img/LAMI-kids-blue-wall.png',
+  'img/LAMI-kids-ball.png',
             'img/thumbsupdown.jpeg', 'img/thisarrow.png', 'img/thatarrow.png'],
-  video: ['video/missthisway.mp4', 'video/missthatway.mp4', 'video/scorethisway.mp4', 'video/scorethatway.mp4']
+  video: ['video/LAMI-kids-this-score.mp4',
+  'video/LAMI-kids-this-miss.mp4',
+  'video/LAMI-kids-that-score.mp4',
+  'video/LAMI-kids-that-miss.mp4']
 };
 timeline.push(preload);
 
@@ -167,7 +175,7 @@ var meetturninggreenblue = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus:`
   <p>This is what it looks like to score in the blue room, the goal will turn green. Great Job! </p>
-  <div style='float: center;'><video src='video/scorethatway.mp4' width= 600"  autoplay loop></video>
+  <div style='float: center;'><video src='video/LAMI-kids-that-score.mp4' width= 600"  autoplay loop></video>
   <p>Press any key to continue </p>`,
 };
 timeline.push(meetturninggreenblue);
@@ -176,7 +184,7 @@ var meetorangewallblue = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus:
   `<p>This is what it looks like to miss in the blue room, the goal will stay red. Uh Oh, no score this time! </p>
-  <div style='float: center;'><video src='video/missthisway.mp4' width= "600" autoplay loop></video>
+  <div style='float: center;'><video src='video/LAMI-kids-this-miss.mp4' width= "600" autoplay loop></video>
   <p>Press any key to continue </p>`,
 };
 timeline.push(meetorangewallblue);
@@ -186,8 +194,8 @@ var summarizeblue = {
   stimulus:
   `<p> So if the ball is in the <span style= "color:blue">blue room</span>, and you choose <strong> this way</strong>, the ball will miss. If you choose <strong>that way</strong> in the blue room, the ball will score. </p>
   <div style='width: 700px; display: inline-block;'>
-  <div style='float: left;'><video src='video/missthisway.mp4' width= "300" autoplay loop></video></div>
-  <div style='float: right;'><video src='video/scorethatway.mp4' width= "300" autoplay loop></video></div>
+  <div style='float: left;'><video src='video/LAMI-kids-this-miss.mp4' width= "300" autoplay loop></video></div>
+  <div style='float: right;'><video src='video/LAMI-kids-that-score.mp4' width= "300" autoplay loop></video></div>
   </div>
   <p>Press any key to continue </p>`,
 };
@@ -197,7 +205,7 @@ var meetturninggreenpink = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus:`
   <p>This is what it looks like to score in the pink room, the goal will turn green. Great Job! </p>
-  <div style='float: center;'><video src='video/scorethisway.mp4' width= "600" autoplay loop></video>
+  <div style='float: center;'><video src='video/LAMI-kids-this-score.mp4' width= "600" autoplay loop></video>
   <p>Press any key to continue </p>`,
 };
 timeline.push(meetturninggreenpink);
@@ -206,7 +214,7 @@ var meetorangewallpink = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus:
   `<p>This is what it looks like to miss in the pink room, the goal will stay red. Uh Oh, no score this time! </p>
-  <div style='float: center;'><video src='video/missthatway.mp4' width= "600" autoplay loop></video>
+  <div style='float: center;'><video src='video/LAMI-kids-that-miss.mp4' width= "600" autoplay loop></video>
   <p>Press any key to continue </p>`,
 };
 timeline.push(meetorangewallpink);
@@ -216,10 +224,11 @@ var summarizepink = {
   stimulus:
   `<p> So if the ball is in the <span style= "color:#FF69B4">pink room</span>, and you choose <strong> this way</strong>, the ball will score. If you choose <strong>that way</strong> in the pink room, the ball will miss. </p>
   <div style='width: 700px; display: inline-block;'>
-  <div style='float: left;'><video src='video/scorethisway.mp4' width= "300" autoplay loop></video></div>
-  <div style='float: right;'><video src='video/missthatway.mp4' width= "300" autoplay loop></video></div>
+  <div style='float: left;'><video src='video/LAMI-kids-this-score.mp4' width= "300" autoplay loop></video></div>
+  <div style='float: right;'><video src='video/LAMI-kids-that-miss.mp4' width= "300" autoplay loop></video></div>
   </div>
   <p>Press any key to continue </p>`,
+
 };
 timeline.push(summarizepink);
 
@@ -234,8 +243,8 @@ timeline.push(IntrotoTraining);
 // figure out whether they scored
 function trialOutcome(room, direction) {
   let outcome = 'score';
-  if ((room=='blue' && direction=='this') ||
-      (room=='pink' && direction=='that'))
+  if ((room=='blue' && direction=='that') ||
+      (room=='pink' && direction=='this'))
       outcome = 'miss';
   return outcome;
 }
@@ -311,7 +320,7 @@ var training = {
   stimulus: function () {
     let room =  jsPsych.timelineVariable('room');
     let direction =  jsPsych.timelineVariable('direction');
-    return ['video/' +  trialOutcome(room, direction) + direction + 'way.mp4'];
+    return ['video/LAMI-kids-' + direction + '-' + trialOutcome(room, direction) + '.mp4'];
   },
   on_load: function () {
     document.getElementById('jspsych-content').classList.add('video-content');
@@ -330,30 +339,59 @@ var training_procedure = {
 };
 timeline.push(training_procedure);
 
-var IntrotoPrompts = {
+var introprompts = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus:`
-  <p> After you see whether the ball scores or misses, you will be given a prompt. This will tell you what you should be thinking about.</p>
+  <p> After you see whether the ball scores or misses, you will get a new instruction. This tells you what to do next.</p>
+  <p>Press any key to continue </p>`,
+};
+timeline.push(introprompts);
+
+var introremember = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus:`
   <p>If you are asked <strong>Remember</strong>, try to remember which way the ball moved in the blank square.</p>
+  <p>Press any key to continue </p>`,
+};
+timeline.push(introremember);
+
+var introwhatif = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus:`
   <p>If you are asked <strong>What if?</strong>, try to see what would have happened if that ball had gone the other way in the blank square.</p>
+  <p>Press any key to continue </p>`,
+};
+timeline.push(introwhatif);
+
+var introcause = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus:`
   <p>If you are asked <strong>Cause</strong>, try to see what caused the ball to score or miss in the blank square.</p>
   <p>Press any key to continue </p>`,
 };
-timeline.push(IntrotoPrompts);
+timeline.push(introcause);
 
 var IntrotoSimulation = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus:`
-  <p> When you see an empty screen  with nothing on it, you should use it to try to picture what you remember, what would have happened, or what the cause was. Try to imagine what would happen with the ball! </p>
-  <p> If you see "What if?", what will you trty to imagine on the screen? </p>
+  <p> When you see an empty screen  with nothing on it, you should use it to try to picture your instructions. </p>
+  <p> Try to imagine what the ball does based on those instructions! </p>
+  <p> Let's try! If you see "Remember", what will you try to imagine on the screen? </p>
   <p>Press any key to continue </p>`,
 };
 timeline.push(IntrotoSimulation);
 
+var practicesimulation = {
+    type: jsPsychHtmlKeyboardResponse,
+    trial_duration: 4200,
+    stimulus: '',
+};
+timeline.push(practicesimulation);
+
 var IntrotoQuestions = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus:`
-  <p> After you see whether the ball scores or misses, you will be asked a question. To pick your answer, choose the arrow button on the same side as the correct response.</p>
+  <p> After you imagine, you will be asked a question. To pick your answer, choose the arrow button on the same side as the correct response.</p>
   <p>If you were asked <strong>Remember</strong>, your question will ask you to remember which way the ball moved.</p>
   <p>If you were asked <strong>What if?</strong>, your question will ask you to answer what would have happened if that ball had gone the other way.</p>
   <p>If you were asked <strong>Cause</strong>, your question will ask you to answer what caused the ball to score or miss.</p>
@@ -364,7 +402,8 @@ timeline.push(IntrotoQuestions);
 var IntrotoTest = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus:`
-  <p>Nice job! Are you ready to play? Now you get to choose which way the ball will move, but you <strong>won't know which room the ball will be in</strong>! Try to make the ball score! Do you have any questions? </p>
+  <p>Nice job! Are you ready to play? Now you get to choose which way the ball will move, but you <strong>won't know which room the ball will be in</strong>! Try to make the ball score! </p>
+  <p> Do you have any questions? </p>
   <p>Press any key to continue </p>`,
 };
 timeline.push(IntrotoTest);
@@ -373,8 +412,8 @@ var test_stimuli = jsPsych.randomization.factorial({
   outcome: ['score', 'miss'],
   prompt:['Remember', 'What If?', 'Cause']
 }, 2);
-for (i in [...Array(d.length).keys()]) {
-  d[i].trial_num = i + 1;
+for (i in [...Array(test_stimuli.length).keys()]) {
+  test_stimuli[i].trial_num = i + 1;
 }
 
 if (DEV) {
@@ -408,7 +447,13 @@ var test = {
   stimulus: function () {
     let outcome =  jsPsych.timelineVariable('outcome');
     let direction = LRtoThisThat(jsPsych.data.getLastTrialData().trials[0].response);
-    return ['video/' + outcome + direction + 'way.mp4'];
+    return ['video/LAMI-kids-' + direction + '-' + outcome + '.mp4'];
+  },
+  on_load: function () {
+    document.getElementById('jspsych-content').classList.add('video-content');
+  },
+  on_finish: function () {
+    document.getElementById('jspsych-content').classList.remove('video-content');
   },
   choices: ['NO_KEYS'],
   data: { id: 'test' }
@@ -457,8 +502,10 @@ var testquestion = {
     if (prompt == 'Cause')
       return '<p>What made the ball ' + outcome + '?</p>' +
       `<div style='width: 700px; display: inline-block;'>
-      <div style='float: left;'><img src='img/LAMI-kids-ball.png' width = "200px"></div>
-      <div style='float: right;'><img src='img/LAMI-kids-` + room + `.png' width= "300"></img></div>
+      <div style='float: left;'><img src='img/LAMI-kids-ball.png' width = "225px">
+      <p><strong>This direction the ball was moved</strong></p></div>
+      <div style='float: right;'><img src='img/LAMI-kids-` + room + `.png' width= "300"></img>
+      <p><strong>The room the ball was in</strong></p></div>
       </div>`
   },
   choices: ['ArrowRight', 'ArrowLeft'],

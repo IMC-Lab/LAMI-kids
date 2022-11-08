@@ -293,7 +293,7 @@ var fixation = {
     stimulus: function() {
       let room =  jsPsych.timelineVariable('room');
       let direction =  jsPsych.timelineVariable('direction');
-      return  'You are in the ' +  room + " room.\nLet's  see  what happens if you go " +  direction + '  way!';
+      return  'You are in the ' + otherRoom(room) + " room.\nLet's  see  what happens if you go " +  direction + '  way!';
     },
     choices: ['ArrowRight', 'ArrowLeft']
   }],

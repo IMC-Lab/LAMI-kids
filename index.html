@@ -68,6 +68,7 @@ var jsPsych = initJsPsych({
 });
 
 var id = jsPsych.randomization.randomID();
+jsPsych.data.addProperties({ participant_id: id });
 var timeline = [];
 
 var preload = {

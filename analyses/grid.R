@@ -27,8 +27,8 @@ vertices.rect <- function(grid_idx, bin_x, bin_y, xsize, ysize) {
 grid.rect <- function(df=data.frame(), xmin=-600, xmax=600, xsize=10,
                       ymin=-300, ymax=300, ysize=10) {
     ## make sure we include the maxima
-    if (xmax %% xsize != 0) xmax <- xmax + xsize
-    if (ymax %% ysize != 0) ymax <- ymax + ysize
+    if ((xmax-xmin) %% xsize != 0) xmax <- xmax + xsize
+    if ((ymax-ymin) %% ysize != 0) ymax <- ymax + ysize
     
     df %>%
         expand(bin_x=seq(xmin, xmax, xsize),

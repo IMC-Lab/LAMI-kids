@@ -1,0 +1,1372 @@
+RECORDING_SESSION_LABEL	TRIAL_INDEX	CURRENT_FIX_INDEX	CURRENT_FIX_X	CURRENT_FIX_Y	CURRENT_FIX_START	CURRENT_FIX_END	CURRENT_FIX_DURATION	CURRENT_FIX_BLINK_AROUND	decision	video	outcome	prompt	answer
+04	2	1	952.10	336.40	3356	3588	233	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	2	2	870.40	549.00	3629	3797	169	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	2	3	741.20	442.90	4607	5302	696	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	2	4	717.20	401.80	5320	5862	543	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	2	5	661.10	467.80	5886	6261	376	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	2	6	700.90	379.20	6301	6450	150	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	2	7	844.10	328.10	6478	6610	133	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	2	8	933.10	345.80	6646	6825	180	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	2	9	868.00	357.00	6846	7456	611	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	2	10	493.70	738.20	7507	9066	1560	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	3	1	875.70	742.70	6498	6511	14	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+04	3	2	891.20	583.50	6530	7192	663	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+04	3	3	920.50	383.50	7239	7595	357	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+04	3	4	827.30	544.60	7623	8172	550	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+04	3	5	740.40	460.10	8200	9446	1247	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+04	3	6	679.10	326.90	9476	11134	1659	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+04	3	7	960.10	564.30	11183	11413	231	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+04	3	8	988.40	1009.50	11464	11986	523	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+04	3	9	534.30	1005.40	12032	12144	113	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+04	3	10	-126.10	1037.40	12187	12453	267	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+04	4	1	940.10	536.90	3371	4012	642	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	2	1012.40	429.20	4039	4795	757	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	3	1048.30	241.80	4812	5320	509	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	4	1125.70	284.10	5345	6373	1029	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	5	1240.20	558.10	6412	6883	472	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	6	1034.20	605.10	7072	7281	210	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	7	1264.50	651.20	7323	7665	343	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	8	1611.80	1051.20	7730	7917	188	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	9	1323.70	777.80	7979	8307	329	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	10	1412.50	815.00	8348	8541	194	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	11	1356.80	775.80	8577	9055	479	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	4	12	1321.80	735.20	9199	9260	62	BOTH	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+04	5	1	1078.10	496.70	5485	5773	289	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	2	1030.30	419.00	5798	6861	1064	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	3	1021.70	139.10	6894	7379	486	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	4	1016.40	181.70	7386	7876	491	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	5	1112.60	225.20	7910	8250	341	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	6	1111.90	178.70	8261	8586	326	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	7	1207.10	236.60	8620	9562	943	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	8	2161.20	1138.10	9653	10163	511	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	9	1986.80	1291.00	10182	10396	215	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	10	645.80	1276.80	10497	10945	449	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	11	233.00	716.30	11031	11139	109	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	5	12	-15.60	1210.40	11267	11422	155	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+04	6	1	698.30	442.10	3396	3617	222	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	6	2	895.90	575.70	3661	4456	796	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	6	3	863.00	412.00	4473	5166	694	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	6	4	916.90	198.90	5247	5555	309	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	6	5	906.90	125.00	5578	5917	340	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	6	6	671.10	222.00	5947	6547	601	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	6	7	645.90	318.60	6570	7606	1037	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	6	8	655.90	280.60	7769	8479	711	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	6	9	644.30	377.70	8507	8685	179	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	6	10	668.10	299.70	8708	8944	237	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	6	11	1332.60	340.80	9010	9240	231	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+04	7	1	848.30	534.20	3907	4274	368	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	2	878.90	574.70	4305	5091	787	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	3	789.40	457.10	5114	5864	751	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	4	720.20	324.40	5894	6523	630	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	5	667.70	53.80	6532	6918	387	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	6	693.40	-77.60	7066	7234	169	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	7	678.10	20.10	7256	7281	26	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	8	-267.20	-66.60	7706	7799	94	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	9	257.30	40.40	7855	7976	122	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	10	21.50	-65.80	8013	8256	244	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	11	685.10	367.80	8466	8626	161	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	12	1558.50	632.50	8826	9040	215	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	7	13	1740.00	1215.70	9098	9724	627	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+04	8	1	826.30	508.40	3370	3703	334	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	2	942.00	536.80	3729	4294	566	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	3	889.30	627.90	4558	4693	136	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	4	904.50	420.20	4702	5757	1056	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	5	1117.40	427.40	5785	6144	360	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	6	1149.30	339.90	6166	7186	1021	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	7	1217.50	346.80	7211	7817	607	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	8	1192.00	325.60	7999	8453	455	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	9	1365.40	41.20	8509	8644	136	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	10	1436.30	-280.20	8684	9016	333	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	11	1262.60	185.50	9070	9145	76	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	8	12	1067.60	417.10	9193	9322	129	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+04	9	1	1084.70	562.00	3886	4119	234	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	9	2	909.10	538.60	4158	4850	693	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	9	3	893.50	484.10	4930	5143	214	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	9	4	1061.30	338.90	5183	5959	777	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	9	5	1066.40	296.00	5994	6998	1005	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	9	6	1163.20	343.40	7031	7573	543	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	9	7	1216.70	406.30	7749	7963	215	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	9	8	1089.80	284.00	8182	8435	254	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	9	9	969.10	265.00	8627	8791	165	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	9	10	723.40	357.30	8991	9295	305	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	9	11	1102.20	1173.30	9531	9857	326	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+04	11	1	933.40	698.30	3928	4214	287	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	2	946.30	499.40	4240	5576	1337	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	3	1016.00	250.00	5597	5757	161	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	4	994.40	426.40	5797	5890	94	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	5	956.70	297.40	5957	6064	108	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	6	912.00	220.50	6137	6160	24	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	7	1027.50	130.10	6274	6398	125	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	8	1115.50	160.30	6432	6898	467	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	9	1145.80	172.10	6928	7464	537	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	10	1149.00	129.50	7478	7517	40	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	11	1108.90	212.40	7612	7656	45	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	12	1137.30	231.00	7663	7746	84	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	13	1090.30	745.00	7942	7990	49	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	14	1115.00	895.70	8011	8049	39	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	15	945.40	312.70	8353	8511	159	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	16	1074.10	337.00	8704	8793	90	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	17	1229.60	280.80	8827	9281	455	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	18	1397.80	-256.40	9450	9570	121	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	19	1191.50	280.20	9620	9867	248	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	11	20	1259.50	320.60	9903	9928	25	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+04	12	1	777.10	635.10	7752	8128	377	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	2	840.70	557.70	8150	8659	510	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	3	752.40	768.50	8897	8971	75	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	4	749.30	638.40	8994	9151	158	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	5	746.30	588.90	9170	9196	27	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	6	731.40	761.10	9224	9292	69	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	7	728.10	573.00	9308	9381	74	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	8	730.00	421.80	9390	9679	290	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	9	728.60	431.70	9701	9729	29	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	10	728.50	241.80	9770	10228	459	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	11	758.60	305.70	10241	10564	324	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	12	814.60	692.10	11447	11671	225	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	13	701.70	291.50	11730	11935	206	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	14	611.80	280.10	12150	12648	499	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	15	534.50	303.20	12668	12708	41	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	16	615.20	282.00	12725	13464	740	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+04	12	17	830.00	346.80	13493	13751	258	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	1	1	756.00	765.70	26402	26572	171	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	1	2	809.60	439.70	26623	26927	305	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	1	3	877.20	537.80	26952	28020	1069	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	1	4	804.50	469.00	28041	28980	940	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	1	5	669.90	620.60	29004	30864	1861	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	1	6	625.80	686.40	30895	31570	676	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	1	7	582.40	840.40	31609	32320	712	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	1	8	790.90	415.80	32376	32399	23	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	2	1	1023.60	578.20	7243	7445	203	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+01JM	2	2	908.70	623.10	7483	7657	175	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+01JM	2	3	925.90	456.30	7702	8194	493	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+01JM	2	4	834.00	484.60	8217	10042	1826	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+01JM	2	5	653.60	644.90	10083	10715	633	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+01JM	2	6	754.70	520.90	10744	11114	371	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+01JM	2	7	632.70	768.50	11156	11530	375	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+01JM	2	8	588.20	769.00	11549	13243	1694	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+01JM	3	1	1165.50	539.80	4944	5165	222	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+01JM	3	2	1033.70	579.30	5206	6119	914	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+01JM	3	3	1167.90	345.70	6150	6505	356	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+01JM	3	4	1094.80	478.80	6530	6944	415	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+01JM	3	5	1200.70	368.50	6969	7457	489	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+01JM	3	6	1147.20	382.70	7490	7767	278	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+01JM	3	7	1225.20	304.50	7791	10179	2389	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+01JM	3	8	1268.60	294.50	10202	10916	715	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+01JM	3	9	1252.30	280.60	10928	10943	15	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+01JM	4	1	778.50	455.80	5341	5634	294	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+01JM	4	2	933.20	422.60	5675	5893	219	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+01JM	4	3	927.10	586.70	5923	6117	195	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+01JM	4	4	834.10	423.80	6349	7911	1563	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+01JM	4	5	693.50	301.50	7944	10528	2585	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+01JM	4	6	718.90	291.20	10699	10887	189	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+01JM	4	7	964.60	353.20	10928	11340	412	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+01JM	5	1	659.30	263.00	5115	5212	98	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	5	2	818.00	475.40	5268	5461	194	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	5	3	937.30	605.90	5500	5741	242	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	5	4	882.90	554.40	5773	6468	696	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	5	5	889.20	390.20	6506	6703	198	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	5	6	949.40	380.40	6727	7432	706	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	5	7	922.50	596.00	7641	7769	129	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	5	8	756.80	424.90	7797	8284	488	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	5	9	672.30	294.10	8318	11115	2797	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	1	815.90	509.20	6460	6803	344	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	2	881.30	586.70	6840	7908	1069	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	3	824.80	585.50	7918	7948	31	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	4	1396.80	575.70	8001	8462	462	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	5	1806.70	299.20	8517	8658	142	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	6	2075.90	268.00	8687	9200	514	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	7	828.00	374.60	9280	9487	208	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	8	750.60	354.70	9627	10457	831	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	9	661.20	256.20	10493	11602	1110	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	10	1452.70	995.50	11677	12301	625	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	6	11	774.20	1232.00	12352	12460	108	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+01JM	7	1	1214.40	207.20	5277	5475	199	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	7	2	1050.80	484.10	5523	5896	374	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	7	3	1029.30	535.80	5923	6492	570	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	7	4	1114.20	451.90	6515	7759	1245	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	7	5	1266.80	638.10	7797	8214	418	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	7	6	1373.50	725.70	8250	9345	1096	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	7	7	1353.90	733.10	9369	10040	672	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	7	8	1374.00	794.50	10059	11057	999	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	7	9	1376.20	819.20	11064	11277	213	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	8	1	984.90	440.50	5404	5835	432	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	8	2	1029.60	565.30	5861	6992	1132	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	8	3	1214.40	456.40	7019	8388	1370	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	8	4	1367.30	804.90	8424	9273	850	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	8	5	1541.30	1145.90	9314	9586	273	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	8	6	1376.80	720.50	9647	11404	1757	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+01JM	9	1	824.30	383.90	3432	3481	50	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	9	2	767.90	497.40	3520	3732	213	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	9	3	881.70	518.20	3768	3974	207	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	9	4	882.10	547.20	3998	5231	1234	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	9	5	937.40	402.20	5254	5577	324	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	9	6	950.60	405.90	5589	6038	450	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	9	7	739.10	395.60	6070	6848	779	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	9	8	637.30	308.10	6870	9431	2561	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	10	1	893.00	469.50	6263	6796	534	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	10	2	878.20	604.80	6822	7028	207	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	10	3	843.10	460.00	7228	8733	1506	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	10	4	702.40	589.00	8769	10032	1264	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	10	5	582.10	822.90	10071	10203	133	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	10	6	643.80	697.90	10227	10521	295	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	10	7	1109.20	1094.10	10577	10983	407	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	10	8	711.90	628.40	11054	11251	198	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	10	9	603.00	759.70	11278	11817	540	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	10	10	905.80	1143.80	11869	12262	393	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+01JM	11	1	1113.90	461.00	4323	4778	456	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+01JM	11	2	1002.60	560.90	4817	5867	1051	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+01JM	11	3	1170.20	474.90	5901	7138	1238	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+01JM	11	4	1338.00	644.70	7164	7599	436	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+01JM	11	5	1351.70	745.70	7620	9048	1429	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+01JM	11	6	1329.70	809.20	9071	9824	754	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+01JM	11	7	1562.80	1068.80	9861	10108	248	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+01JM	12	1	767.20	372.80	4132	4434	303	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	2	913.50	422.00	4473	4664	192	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	3	873.50	557.50	4691	5483	793	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	4	908.70	379.10	5508	6255	748	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	5	795.60	401.20	6279	6859	581	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	6	656.50	319.60	6905	7227	323	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	7	714.60	321.10	7248	7859	612	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	8	699.10	292.80	7874	8835	962	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	9	653.30	314.50	8857	9336	480	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	10	916.60	356.70	9370	9657	288	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	11	689.10	279.10	9686	9968	283	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+01JM	12	12	983.10	366.40	10001	10132	131	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	1	1	992.90	618.50	25148	25540	393	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	1	2	847.50	484.00	25593	26414	822	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	1	3	765.60	537.00	26445	28084	1640	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	1	4	614.60	540.40	28128	28506	379	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	1	5	760.50	509.50	28553	28702	150	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	1	6	675.80	588.50	28740	29215	476	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	1	7	582.40	737.40	29254	29508	255	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	1	8	553.30	735.10	29542	29810	269	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	1	9	569.20	796.70	29832	30685	854	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	1	10	585.50	813.40	30702	31036	335	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	1	11	901.10	326.40	31119	31148	29	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Right
+02EM	2	1	626.30	209.50	10453	10506	54	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	2	989.00	613.30	10572	10789	218	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	3	793.70	347.20	10864	11411	548	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	4	989.70	470.80	11471	11670	200	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	5	898.30	523.00	11697	12058	362	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	6	762.90	426.50	12094	12832	739	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	7	977.90	1003.80	12910	13155	246	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	8	850.00	641.20	13240	13366	127	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	9	819.80	601.10	13398	13557	160	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	10	1043.20	1027.60	13623	13940	318	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	11	923.90	973.10	13988	14099	112	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	12	720.50	664.80	14174	14768	595	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	13	629.60	717.40	14805	15045	241	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	14	-67.30	367.40	15124	15251	128	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	15	-288.00	336.20	15277	15603	327	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	16	867.90	469.20	15688	15965	278	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	17	641.80	759.90	16026	16249	224	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	2	18	620.10	808.80	16279	16452	173	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+02EM	3	1	724.30	419.70	5234	5539	306	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	3	2	908.10	554.80	5596	6222	627	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	3	3	612.90	301.10	6254	6677	424	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	3	4	852.90	402.90	6736	7100	365	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	3	5	596.20	276.00	7136	7544	409	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	3	6	734.50	358.30	7584	8174	591	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	3	7	647.70	295.90	8200	9236	1037	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	3	8	921.90	258.70	9284	9817	534	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	3	9	639.20	258.90	9854	10308	455	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	3	10	589.90	74.40	10349	11038	690	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	3	11	638.50	61.50	11058	11234	176	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+02EM	4	1	793.50	272.70	8532	9126	595	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	4	2	906.00	555.00	9190	9605	416	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	4	3	787.10	309.80	9648	10289	642	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	4	4	763.20	297.40	10312	11086	775	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	4	5	695.90	334.80	11123	11643	521	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	4	6	627.10	281.30	11667	12258	592	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	4	7	815.30	324.20	12287	12459	173	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	4	8	645.60	338.20	12488	13436	949	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	4	9	647.90	374.00	13460	13667	208	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	4	10	645.90	364.90	13824	14296	473	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	4	11	824.00	194.60	14356	14501	146	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	5	1	988.00	519.80	6054	7670	1617	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+02EM	5	2	1096.00	482.70	7706	7941	236	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+02EM	5	3	1133.50	312.20	8000	8275	276	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+02EM	5	4	1257.90	313.70	8313	8784	472	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+02EM	5	5	1179.70	348.70	8822	9457	636	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+02EM	5	6	1224.10	345.00	9493	10677	1185	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+02EM	6	1	749.90	461.20	5146	5488	343	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	2	932.10	573.80	5545	6178	634	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	3	625.10	376.90	6230	6657	428	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	4	809.20	428.50	6701	7018	318	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	5	552.30	387.10	7064	7334	271	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	6	-281.00	297.60	7393	7669	277	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	7	820.50	346.70	7754	7877	124	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	8	681.30	321.90	7935	8181	247	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	9	791.40	187.00	8255	8293	39	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	10	1832.50	285.60	8436	8604	169	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	11	719.20	283.30	8683	8882	200	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	12	648.80	389.70	8917	11031	2115	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	6	13	680.70	400.80	11076	11131	55	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+02EM	7	1	663.80	391.20	10582	10858	277	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	7	2	912.30	594.20	10919	11719	801	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	7	3	1147.20	1030.20	11768	11943	176	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	7	4	855.60	530.30	12024	12518	495	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	7	5	1457.70	1095.10	12574	12758	185	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	7	6	820.60	404.70	12853	13270	418	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	7	7	784.80	259.40	14883	15117	235	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	7	8	695.40	297.70	15145	15958	814	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	7	9	1201.10	1084.90	16040	16174	135	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	8	1	700.00	335.50	8924	9160	237	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	8	2	880.20	497.80	9222	10773	1552	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	8	3	725.80	275.80	10814	11251	438	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	8	4	781.50	361.60	11285	11529	245	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	8	5	1287.20	487.40	11598	11773	176	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	8	6	822.20	374.10	11833	12154	322	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	8	7	694.30	395.10	12182	12975	794	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	8	8	579.10	296.10	13019	13388	370	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	8	9	512.10	108.20	14240	14632	393	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	8	10	626.40	237.50	14709	14859	151	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+02EM	9	1	1095.60	486.10	6176	6791	616	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	2	1010.60	545.40	6830	7051	222	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	3	1023.20	369.00	7076	7105	30	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	4	1034.70	344.00	7112	7591	480	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	5	1139.30	295.30	7633	8806	1174	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	6	1309.80	416.80	8854	9295	442	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	7	1238.90	532.80	9331	10111	781	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	8	1318.40	690.80	10170	10344	175	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	9	1255.70	674.10	10370	10725	356	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	10	1331.70	761.40	10765	11125	361	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	11	900.70	395.60	11209	11317	109	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	12	1342.30	704.00	11386	11756	371	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	9	13	738.00	769.60	12114	12139	26	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	10	1	992.60	686.90	5115	5166	52	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+02EM	10	2	1044.40	376.90	5233	5921	689	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+02EM	10	3	1012.00	525.10	5964	6707	744	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+02EM	10	4	1099.70	339.10	6755	7626	872	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+02EM	10	5	1131.10	446.10	7662	8210	549	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+02EM	10	6	1236.40	554.20	8249	8940	692	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+02EM	10	7	1344.10	655.80	8982	9248	267	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+02EM	10	8	1288.80	681.10	9281	10037	757	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+02EM	10	9	1281.90	730.30	10061	11115	1054	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+02EM	11	1	882.30	355.70	5759	6051	293	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	2	1066.40	506.30	6109	6397	289	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	3	1001.90	578.90	6433	6748	316	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	4	1031.60	387.60	6777	7267	491	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	5	1106.90	447.80	7303	8353	1051	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	6	1294.80	508.50	8411	9056	646	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	7	1304.80	635.80	9103	9310	208	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	8	1255.30	500.10	9333	9492	160	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	9	1214.50	352.20	9527	9869	343	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	10	1330.10	560.50	9908	10991	1084	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	11	1312.60	747.00	11024	11463	440	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	11	12	1320.10	785.40	11484	11664	181	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+02EM	12	1	971.10	610.70	28067	28275	209	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	2	1107.80	328.00	28332	28671	340	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	3	1039.20	533.70	28726	29037	312	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	4	1132.80	408.20	29089	29588	500	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	5	1150.50	457.00	29621	29931	311	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	6	1141.00	321.30	29962	30630	669	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	7	1285.50	442.40	30672	31317	646	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	8	1755.60	432.40	31360	31539	180	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	9	1208.90	556.00	31606	31881	276	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	10	812.00	392.00	31947	32035	89	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	11	1358.50	540.40	32104	32531	428	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+02EM	12	12	1394.70	696.80	32568	34067	1499	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	1	1	1142.20	509.60	9454	9683	230	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	2	1036.60	610.00	9722	10060	339	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	3	1023.70	430.30	10098	10300	203	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	4	1029.50	578.30	10339	10574	236	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	5	1062.80	499.10	10594	11193	600	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	6	1099.40	410.70	11214	11532	319	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	7	1147.50	412.70	11548	11946	399	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	8	1294.30	797.80	13177	13252	76	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	9	1274.30	668.00	13290	13480	191	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	10	1046.50	1143.80	13532	13667	136	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	11	1136.00	1264.10	13807	13878	72	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	12	1374.20	766.10	14355	14952	598	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	1	13	1391.40	805.00	14965	15343	379	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	2	1	1092.00	573.10	3221	3451	231	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	2	1029.00	613.20	3477	3912	436	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	3	1029.80	392.00	3939	4229	291	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	4	1082.50	520.60	4268	5078	811	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	5	1122.50	485.90	5089	5314	226	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	6	1156.30	459.60	5332	5652	321	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	7	1174.60	545.60	5680	5721	42	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	8	1174.10	590.60	5747	5773	27	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	9	1199.60	605.80	5848	6063	216	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	10	1268.90	635.20	6089	6375	287	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	11	1342.70	878.40	6961	7101	141	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	12	1310.40	768.40	7126	7467	342	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	13	1303.50	756.50	7485	7672	188	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	2	14	1376.50	830.70	9080	9221	141	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	3	1	1249.40	282.60	7724	7906	183	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	3	2	1031.00	587.30	8004	8055	52	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	3	3	1034.80	576.50	8147	8200	54	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	3	4	1152.40	332.70	13672	13723	51	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+03	4	1	642.10	225.20	3042	3129	88	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	2	796.60	442.10	3177	3427	251	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	3	929.60	603.00	3473	3857	385	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	4	991.90	367.60	3896	4439	544	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	5	873.50	477.90	4471	4647	177	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	6	698.90	295.90	5009	5184	176	BOTH	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	7	784.30	328.10	5237	5346	110	BOTH	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	8	756.80	375.40	5903	6303	401	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	9	737.50	339.60	6318	6533	216	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	10	972.40	322.20	6567	6811	245	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	11	1284.40	298.20	6852	7097	246	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	12	1134.40	339.00	7125	7322	198	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	13	753.30	285.60	7363	7560	198	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	14	1364.00	69.70	7612	7761	150	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	15	1467.90	-112.90	7788	7953	166	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	16	884.20	268.80	8019	8235	217	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	17	1557.60	-41.60	8290	8434	145	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	18	1515.60	-89.90	8456	8583	128	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	19	1892.80	-33.20	8622	8746	125	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	4	20	1104.00	310.10	8815	9043	228	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	5	1	891.20	133.70	3009	3151	143	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	5	2	893.90	375.60	3197	3494	298	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	5	3	926.30	603.60	3540	4133	594	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	5	4	888.50	553.70	4153	4414	262	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	5	5	885.80	588.60	4441	4538	98	AFTER	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	5	6	860.70	496.00	5113	5145	33	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	5	7	861.40	494.30	5154	5174	21	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	5	8	858.00	491.00	5202	5222	21	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	5	9	730.40	712.60	6456	6515	60	AFTER	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	5	10	618.20	766.30	7616	8042	427	BOTH	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	5	11	602.40	809.70	8300	8366	67	BOTH	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+03	6	1	1099.50	525.60	3770	4132	363	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	2	1037.90	570.70	4170	4779	610	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	3	995.00	345.20	4820	5124	305	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	4	1208.50	384.50	5158	5351	194	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	5	1330.40	324.80	5375	5763	389	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	6	1237.50	295.20	5786	6209	424	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	7	1200.80	390.90	6236	6463	228	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	8	1196.50	385.50	6473	6948	476	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	9	1232.40	335.80	6962	7355	394	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	10	906.30	463.00	7404	7621	218	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	11	946.50	377.80	7642	7847	206	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	12	1284.20	267.70	7885	8248	364	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	13	1306.00	275.70	8256	8743	488	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	14	1440.90	-24.20	8791	8904	114	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	15	1500.90	-89.10	8926	9142	217	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	16	1523.30	-92.40	9152	9331	180	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	17	1283.70	290.90	9398	9582	185	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	6	18	1321.90	281.50	9597	9730	133	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+03	7	1	1077.10	413.30	3396	3781	386	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+03	7	2	1020.50	587.90	3824	4243	420	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+03	7	3	1070.10	555.30	4259	4772	514	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+03	7	4	955.90	365.00	4810	4965	156	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+03	7	5	1098.80	490.00	5703	5892	190	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+03	7	6	1194.80	510.90	5915	6280	366	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+03	7	7	1265.90	616.00	6301	6850	550	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+03	7	8	601.20	1334.60	8888	8995	108	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+03	7	9	1081.60	1347.20	9043	9270	228	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+03	7	10	1130.80	1294.10	9289	9344	55	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+03	8	1	1008.80	741.00	3637	3917	281	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	2	954.60	618.00	3940	4664	725	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	3	946.60	498.40	4684	4914	231	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	4	881.70	456.10	4934	5231	298	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	5	848.70	478.30	5254	6030	777	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	6	881.90	397.50	6050	6371	322	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	7	784.60	359.10	6397	6725	329	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	8	751.90	318.30	6745	7329	585	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	9	662.80	235.70	7351	7729	379	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	10	708.80	281.20	7750	7981	232	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	11	1105.80	335.40	8026	8243	218	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	12	1469.70	60.80	8302	8348	47	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	13	1775.30	-129.40	8394	8531	138	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	14	2990.20	-243.00	8610	8750	141	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	8	15	3138.40	-239.30	8775	8967	193	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+03	9	1	947.10	597.40	4128	4461	334	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	9	2	1013.90	617.90	4484	5107	624	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	9	3	1059.30	516.40	5125	5477	353	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	9	4	1542.00	1400.00	5551	5698	148	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	9	5	1604.70	1549.00	5790	5822	33	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Right
+03	10	1	924.90	596.10	2934	3413	480	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	2	915.10	550.30	3422	4045	624	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	3	889.40	575.70	4066	4188	123	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	4	691.80	452.50	5490	5641	152	BOTH	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	5	199.80	5.30	5708	5823	116	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	6	111.90	-93.70	5853	6036	184	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	7	49.60	-113.30	6059	6326	268	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	8	691.60	262.40	6387	6643	257	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	9	713.80	301.50	6658	7004	347	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	10	955.00	329.50	7037	7392	356	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	11	1386.50	115.00	7438	7588	151	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	12	1486.20	-83.00	7632	7902	271	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	13	1860.90	-35.30	7943	8778	836	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	10	14	1173.90	298.20	8844	8882	38	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+03	11	1	974.50	543.20	3869	4181	313	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	2	926.10	605.10	4208	4509	302	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	3	1019.40	387.60	4549	4850	302	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	4	961.70	372.70	4867	5448	582	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	5	1394.00	-3.60	5700	5924	225	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	6	1502.00	-71.00	5951	6206	256	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	7	205.10	-95.40	6278	6413	136	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	8	88.80	-99.30	6450	6891	442	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	9	662.90	291.90	6955	7216	262	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	10	725.80	307.30	7235	7719	485	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	11	708.90	301.80	7729	7961	233	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	12	1175.60	290.30	8006	8169	164	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	13	1341.10	271.80	8199	8497	299	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	14	1472.20	-96.30	8547	8909	363	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	15	1497.80	-198.30	8928	9143	216	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	11	16	685.60	281.30	9216	9383	168	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+03	12	1	1131.30	746.70	4993	4993	1	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	2	1053.70	638.40	5020	5470	451	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	3	1060.40	636.10	5481	5903	423	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	4	989.10	455.10	5942	6311	370	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	5	1113.30	532.40	6350	6588	239	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	6	1152.10	499.70	7043	7189	147	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	7	1162.70	396.80	7218	7556	339	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	8	1272.80	390.60	7580	8187	608	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	9	1268.70	382.90	8203	8718	516	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	10	1038.70	394.50	8757	9255	499	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	11	1216.40	349.80	9282	10055	774	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	12	1591.00	1505.10	10382	10411	30	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	13	1596.10	1501.80	10428	10543	116	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+03	12	14	1652.40	1547.80	10644	10788	145	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	1	1	967.70	671.10	10480	10503	24	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	2	935.80	400.20	10537	10715	179	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	3	946.10	431.00	10728	10810	83	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	4	975.80	601.20	10851	11162	312	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	5	981.80	380.20	11188	11432	245	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	6	892.10	523.60	11472	11820	349	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	7	805.40	264.80	11854	11964	111	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	8	776.10	260.10	11973	12028	56	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	9	770.00	263.10	12044	12517	474	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	10	771.00	399.50	12546	12725	180	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	11	783.50	418.40	12746	13121	376	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	12	736.90	362.30	13144	14191	1048	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	13	686.30	353.70	14207	14405	199	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	14	724.40	280.00	14667	14902	236	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	15	658.80	314.40	14923	15364	442	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	16	670.60	325.40	15376	16207	832	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	1	17	1074.90	362.90	16256	16480	224	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+05	2	1	1061.50	204.40	5789	6046	258	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	2	939.70	641.00	6110	6382	273	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	3	1067.30	436.60	6414	6916	503	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	4	1101.00	488.80	6940	7641	702	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	5	1193.50	408.10	7664	8532	869	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	6	695.50	272.40	8587	8892	306	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	7	1267.60	511.70	9184	9796	613	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	8	1278.60	683.50	9823	10100	278	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	9	1563.00	1286.70	10162	10626	465	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	10	1361.30	754.10	10681	10967	287	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	11	1345.90	815.70	10987	11098	112	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	12	1314.70	785.50	11120	11355	236	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	13	1377.50	763.80	11374	11768	395	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	2	14	1353.90	781.80	11788	11789	1	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	1	1086.00	446.30	5927	6231	305	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	2	983.20	618.20	6275	6566	292	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	3	1168.10	394.40	6603	7000	398	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	4	1082.30	513.90	7028	7513	486	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	5	1146.40	366.30	7537	8232	696	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	6	1131.20	859.90	8397	8417	21	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	7	1164.80	616.30	8444	8538	95	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	8	1236.00	596.10	8895	9049	155	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	9	1514.40	460.50	9171	9369	199	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	10	1194.70	447.30	9384	9454	71	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	11	1203.20	435.80	9475	9616	142	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	12	1302.90	550.90	9641	9812	172	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	13	1343.10	624.50	9836	9995	160	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	14	932.20	1217.20	10047	10357	311	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	15	1335.70	698.10	10417	10575	159	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	16	1399.50	698.20	10599	11591	993	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	3	17	1659.00	1230.40	11711	11927	216	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+05	4	1	932.10	667.50	5544	6008	465	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	2	939.30	511.90	6044	6674	631	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	3	827.70	503.10	6883	6925	43	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	4	804.00	421.80	7011	7104	94	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	5	895.10	411.60	7137	7433	297	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	6	791.30	377.70	7479	8185	707	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	7	813.80	334.30	8196	8453	258	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	8	733.20	320.70	8491	9302	812	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	9	680.00	313.80	9322	9507	186	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	10	726.80	275.00	9526	9742	217	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	11	747.10	248.90	9806	10094	289	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	12	702.20	265.90	10115	10524	410	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	13	732.50	280.50	10547	11049	503	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	4	14	979.60	344.00	11244	11544	300	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+05	5	1	918.50	763.80	5648	5768	121	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	2	798.30	585.60	5832	5854	23	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	3	957.20	503.50	5891	6181	291	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	4	998.80	539.10	6201	6524	324	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	5	1024.10	523.40	6530	6695	166	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	6	882.80	166.60	7052	7073	22	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	7	917.40	224.00	7093	7148	56	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	8	202.80	3.30	7249	7400	152	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	9	-449.50	-368.60	7461	7641	181	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	10	1121.20	320.80	7734	7933	200	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	11	1178.50	373.70	7958	8507	550	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	12	1228.30	292.00	8525	9358	834	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	13	1246.50	250.30	9368	9662	295	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	14	1313.80	238.70	9679	10220	542	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	15	1277.40	261.40	10239	10637	399	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	16	905.10	369.30	10685	11026	342	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	17	451.00	299.30	11080	11223	144	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	18	-448.50	-227.50	11299	11457	159	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	5	19	-596.60	-243.60	11482	11561	79	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+05	6	1	925.90	962.00	7077	7136	60	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	2	781.70	612.30	7167	7362	196	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	3	837.10	677.50	7387	7695	309	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	4	43.00	-201.40	8156	8313	158	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	5	-324.50	-436.90	8415	8640	226	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	6	1262.20	400.00	8733	8969	237	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	7	1218.30	295.70	8991	9798	808	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	8	1294.70	333.10	9818	10920	1103	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	9	1331.10	299.60	10940	11729	790	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	10	1154.10	295.90	11764	12014	251	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	11	909.50	327.30	12050	12346	297	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	12	35.70	-187.00	12435	12469	35	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	13	148.40	-178.60	12498	12640	143	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	14	395.80	-266.60	12656	12788	133	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	15	537.60	-266.50	12808	12870	63	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	6	16	322.70	-260.20	12887	12915	28	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+05	7	1	1428.60	1093.30	5925	6034	110	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	7	2	1057.30	540.10	6082	6337	256	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	7	3	1011.70	593.70	6359	6686	328	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	7	4	1119.20	419.60	6715	7009	295	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	7	5	1102.90	450.50	7254	8317	1064	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	7	6	1216.10	519.10	8345	8910	566	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	7	7	1192.10	450.90	9154	9666	513	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	7	8	1306.90	681.20	9710	10236	527	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	7	9	1486.80	1118.70	10283	10386	104	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	7	10	1629.10	1362.50	10417	11145	729	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	7	11	1517.70	1501.20	11186	11771	585	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+05	8	1	952.80	514.80	6737	7271	535	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+05	8	2	1131.40	365.50	7301	8002	702	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+05	8	3	1145.70	453.30	8322	8518	197	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+05	8	4	1167.20	484.00	8524	9615	1092	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+05	8	5	1366.60	729.20	9666	9851	186	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+05	8	6	1326.70	605.30	9876	10166	291	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+05	8	7	1319.80	704.60	10185	12034	1850	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+05	8	8	1279.80	654.40	12352	12499	148	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+05	9	1	903.70	267.30	5682	5783	102	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	2	1093.90	461.80	5846	6137	292	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	3	1050.90	576.40	6177	6469	293	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	4	1085.60	307.50	6510	6717	208	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	5	1090.20	530.20	7252	7338	87	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	6	1165.30	292.30	7359	8275	917	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	7	1591.60	901.30	8335	8629	295	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	8	1195.70	324.10	8697	10108	1412	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	9	611.60	254.20	10169	10404	236	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	10	-40.40	-102.30	10479	10627	149	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	11	158.80	-43.50	10654	10944	291	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	12	210.50	-15.70	10958	11301	344	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	9	13	1222.30	297.40	11550	11681	131	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+05	10	1	878.80	391.70	4657	4995	339	BOTH	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+05	10	2	869.80	558.40	5271	5349	79	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+05	10	3	837.20	534.80	5356	6343	988	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+05	10	4	784.60	418.10	6367	6641	275	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+05	10	5	723.70	434.30	6665	6834	170	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+05	10	6	796.10	432.70	6854	7006	153	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+05	10	7	711.40	507.10	7033	7905	873	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+05	10	8	707.90	504.90	7922	8425	504	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+05	10	9	668.60	337.20	8456	8875	420	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+05	10	10	546.60	838.20	8914	10657	1743	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+05	11	1	916.80	339.10	3607	3842	236	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	2	986.00	639.20	3907	4143	237	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	3	942.10	504.00	4179	4335	157	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	4	818.10	241.10	4519	4714	196	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	5	212.70	28.10	4788	4935	148	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	6	152.60	-33.30	4959	5357	399	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	7	821.80	227.40	5424	5831	408	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	8	847.80	163.20	5851	6115	265	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	9	242.40	-1.50	6336	6446	111	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	10	765.60	325.10	6493	6811	319	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	11	741.80	348.90	6828	7683	856	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	12	217.90	22.50	7746	7924	179	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	13	165.80	-25.90	7942	8577	636	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	14	706.00	275.50	8639	9010	372	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	11	15	179.80	15.10	9399	9543	144	BOTH	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+05	12	1	984.50	382.80	4807	5268	462	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Right
+05	12	2	1093.50	530.60	5308	5612	305	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Right
+05	12	3	1079.30	394.30	5868	5987	120	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Right
+05	12	4	1064.50	384.30	5999	6356	358	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Right
+05	12	5	1128.30	465.80	6390	7769	1380	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Right
+05	12	6	1305.30	602.20	7795	9267	1473	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Right
+05	12	7	1389.90	775.10	9290	10807	1517	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Right
+06	1	1	924.80	655.20	13789	13867	79	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	2	873.80	663.80	13889	14075	187	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	3	953.60	405.80	14110	14319	210	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	4	860.80	645.30	14363	14679	317	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	5	929.70	365.70	14711	15304	594	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	6	793.00	494.70	15336	15668	333	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	7	757.60	403.90	15692	16324	633	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	8	732.00	400.40	16341	16608	268	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	9	692.40	326.70	16639	17352	714	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	10	286.30	247.50	17590	17682	93	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	11	739.90	352.70	17758	18497	740	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	12	649.80	304.70	18525	19219	695	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	13	1042.20	394.90	19267	19510	244	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	1	14	926.10	391.20	19541	19789	248	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	2	1	1054.40	429.30	3641	4245	605	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	2	2	994.40	616.40	4292	4538	247	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	2	3	1023.70	343.90	4578	4915	338	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	2	4	1110.90	464.10	4944	5395	452	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	2	5	1105.50	433.10	5414	6156	743	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	2	6	1193.30	556.00	6179	7277	1099	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	2	7	1178.00	559.10	7311	7383	73	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	2	8	1251.20	720.40	7403	8385	983	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	2	9	1496.30	1228.50	8446	8760	315	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	2	10	1584.10	1183.80	8782	9272	491	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	2	11	1548.20	1215.60	9286	9548	262	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	3	1	1143.60	585.50	3495	3688	194	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	2	958.00	651.90	3733	3927	195	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	3	1081.90	404.30	3963	4854	892	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	4	1056.90	434.50	4895	5259	365	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	5	1143.20	12.70	5289	5646	358	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	6	1130.50	18.50	5673	5867	195	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	7	1169.70	113.30	5890	6003	114	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	8	1178.40	399.80	6018	6559	542	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	9	1282.70	113.90	6831	7057	227	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	10	1655.30	690.60	7130	7661	532	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	11	1239.40	489.80	7724	7899	176	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	12	1328.20	487.40	7922	8191	270	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	13	1093.90	155.40	8241	8509	269	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	14	816.10	272.80	8562	9088	527	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	3	15	-90.40	-188.60	9311	9449	138	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	4	1	1039.80	755.30	3796	4054	259	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	2	965.00	435.60	4084	4519	436	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	3	1053.80	418.60	4548	5671	1124	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	4	1167.90	75.60	5692	5996	305	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	5	1018.30	76.30	6033	6259	227	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	6	1096.00	160.90	6277	6456	180	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	7	1195.90	268.10	6481	6802	322	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	8	1235.30	268.20	6821	7541	721	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	9	1208.50	290.20	7556	7746	191	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	10	1247.50	715.60	7806	7834	29	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	11	1297.20	497.40	8127	8183	57	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	12	1271.20	250.50	8205	8516	312	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	13	1208.30	349.40	8552	9070	519	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	4	14	1518.10	1304.60	9157	9714	557	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+06	5	1	889.70	719.10	3489	3701	213	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	2	1105.50	333.70	3736	4447	712	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	3	1040.90	247.60	4471	4653	183	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	4	1075.10	420.80	4681	4887	207	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	5	1055.50	459.50	4908	5411	504	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	6	1085.00	437.40	5433	5790	358	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	7	1154.70	518.70	5817	6222	406	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	8	1190.10	608.00	6233	7455	1223	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	9	1598.60	968.00	7498	7646	149	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	10	1656.40	1249.50	7678	8176	499	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	11	1316.00	841.60	8234	8369	136	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	12	1226.00	922.90	8642	8772	131	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	13	867.80	1284.20	8818	9145	328	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	5	14	963.90	1229.50	9166	9302	136	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+06	6	1	1049.70	693.70	4688	4818	131	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	2	861.40	629.30	4852	5219	368	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	3	906.70	341.80	5256	5944	689	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	4	962.70	803.20	6516	6538	23	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	5	745.60	419.60	6590	7347	758	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	6	680.00	404.70	7365	8303	939	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	7	633.70	357.70	8323	8617	295	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	8	1155.60	395.50	8669	8880	212	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	9	616.50	315.80	8932	9271	340	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	10	411.00	521.60	9562	9793	232	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	11	654.20	295.60	9830	10042	213	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	12	53.10	-37.70	10098	10318	221	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	6	13	151.30	-34.60	10326	10558	232	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+06	7	1	901.40	536.50	3725	4196	472	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	2	811.40	636.70	4224	5049	826	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	3	1682.50	595.10	5132	5278	147	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	4	1709.40	756.30	5321	5439	119	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	5	1704.10	784.90	5463	5645	183	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	6	807.40	112.30	5791	6081	291	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	7	697.00	346.10	6107	7079	973	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	8	663.20	357.90	7099	7634	536	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	9	152.40	3.70	7703	8132	430	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	10	775.00	346.40	8194	8502	309	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	11	616.70	351.10	8530	9437	908	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	7	12	1102.30	487.00	9500	9556	56	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+06	8	1	1107.80	571.80	3105	3347	243	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	2	956.70	594.70	3379	3669	291	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	3	1014.90	338.60	3710	4476	767	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	4	1084.30	449.60	4505	4867	363	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	5	1079.50	430.10	4890	5438	549	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	6	1145.30	542.50	5459	5869	411	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	7	1142.20	532.90	5886	6377	492	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	8	1267.10	671.00	6420	7151	732	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	9	1582.20	955.10	7197	7753	557	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	10	1324.40	745.10	7810	8027	218	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	11	1326.50	829.20	8045	8439	395	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	12	1560.70	1299.30	8499	8888	390	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	8	13	1287.40	809.70	8950	8951	1	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+06	9	1	889.50	657.80	3792	4072	281	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	2	786.40	366.90	4107	5096	990	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	3	852.70	406.90	5126	5340	215	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	4	823.60	352.70	5360	5806	447	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	5	763.30	394.20	5822	6375	554	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	6	688.90	892.10	6778	7053	276	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	7	781.70	1608.00	7147	7172	26	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	8	831.00	1363.70	7178	7378	201	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	9	957.50	1366.00	7408	7642	235	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	10	1010.30	1193.70	7662	7974	313	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	11	645.00	730.10	8036	8617	582	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	12	666.40	840.60	8623	8791	169	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	13	1403.10	1221.90	8871	8986	116	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	9	14	1570.90	1292.20	9018	9792	774	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+06	10	1	985.70	527.80	4082	4268	187	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	2	973.80	710.20	4312	4634	323	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	3	1077.20	425.50	4673	5647	975	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	4	1079.50	253.80	5666	5819	154	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	5	1146.60	391.50	5883	7114	1232	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	6	1328.00	744.70	7145	7431	287	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	7	1561.40	1105.10	7466	7608	143	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	8	1613.70	1291.80	7651	8087	437	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	9	1253.30	810.40	8150	8316	167	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	10	1271.10	815.90	8336	9168	833	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	11	1308.60	853.90	9181	9768	588	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	10	12	1297.90	788.80	9798	9941	143	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+06	11	1	1036.20	568.20	3969	4148	180	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	2	958.50	667.50	4190	4361	172	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	3	951.40	344.30	4401	5241	841	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	4	1111.60	441.00	5287	5484	198	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	5	1093.40	352.30	5512	6547	1036	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	6	1211.10	309.30	6574	7014	441	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	7	1186.70	323.30	7032	7315	284	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	8	923.20	435.60	7882	8065	184	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	9	1241.30	355.30	8119	8664	546	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	10	2738.00	403.60	8785	8975	191	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	11	1159.00	416.70	9064	9269	206	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	12	1271.60	336.30	9298	9708	411	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	11	13	1249.50	325.90	9724	9813	89	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+06	12	1	963.50	310.90	3906	5087	1182	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	2	902.50	510.70	5139	5287	149	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	3	850.60	479.30	5330	5563	234	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	4	947.50	381.90	5596	6242	647	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	5	812.30	387.70	6272	6517	246	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	6	689.70	364.40	6546	7449	904	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	7	701.90	318.60	7470	7741	272	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	8	656.10	304.70	7760	8045	286	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	9	149.40	-41.90	8109	8270	162	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	10	106.50	-65.50	8287	8973	687	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	11	837.70	355.30	9233	9412	180	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	12	1504.60	746.00	9504	9575	72	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+06	12	13	1854.20	1219.20	9632	9847	216	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	1	1	919.00	455.80	8073	8387	315	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	2	830.20	631.00	8414	8980	567	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	3	816.30	354.10	9029	9369	341	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	4	740.10	633.70	9408	9777	370	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	5	1076.10	377.90	9820	10644	825	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	6	861.70	571.10	10675	10812	138	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	7	663.00	436.70	10841	11364	524	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	8	635.00	431.40	11381	11657	277	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	9	518.80	339.50	11899	12117	219	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	10	634.80	454.90	12143	12527	385	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	11	560.10	457.20	12546	13085	540	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	12	517.20	404.30	13271	13420	150	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	13	15.70	-162.10	13500	13832	333	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	1	14	-48.90	-270.40	13859	14073	214	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+07	2	1	1357.20	229.70	3065	3305	241	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	2	1152.90	340.50	3337	3696	360	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	3	955.50	553.90	3730	3929	200	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	4	878.00	804.80	4389	4445	57	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	5	948.70	828.20	4498	4589	92	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	6	912.20	699.80	4704	4791	88	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	7	939.80	568.60	4875	4899	25	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	8	1079.40	371.60	4978	5062	85	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	9	1103.40	382.90	5073	5586	514	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	10	1219.70	399.20	5608	5882	275	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	11	1390.90	526.80	5915	6142	228	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	12	1279.90	554.40	6163	6344	182	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	13	972.40	944.90	6392	6816	425	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	14	1122.20	763.20	6845	7055	211	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	15	1497.60	390.40	7124	7469	346	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	16	1376.40	459.70	7494	8183	690	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	17	1458.10	455.20	8201	8547	347	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	18	1413.10	475.20	8565	8893	329	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	2	19	1456.70	458.40	8911	9064	153	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	1	1125.30	459.50	3159	3714	556	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	2	-207.70	-874.00	4181	4471	291	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	3	-31.80	4.80	4539	4694	156	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	4	1013.50	474.60	4771	4997	227	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	5	1186.20	401.30	5027	5972	946	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	6	1280.20	460.30	5995	6210	216	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	7	973.10	1098.60	6325	6419	95	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	8	1012.40	1049.10	6425	6506	82	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	9	584.50	1561.80	6549	6851	303	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	10	805.90	1077.30	6909	7191	283	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	11	949.20	981.00	7217	7673	457	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	12	1121.10	860.20	7707	7915	209	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	13	1448.20	466.80	7986	8394	409	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	14	1360.50	523.60	8417	8734	318	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	3	15	1500.20	404.20	8762	9159	397	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+07	4	1	819.90	533.70	3734	4273	540	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	2	778.10	561.70	4291	6296	2006	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	3	729.30	745.40	6336	6551	216	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	4	726.30	574.30	6575	6813	239	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	5	639.40	420.00	6843	7674	832	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	6	546.40	439.90	7692	8070	379	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	7	602.00	427.50	8085	8352	268	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	8	1225.90	304.60	8406	8717	312	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	9	2447.90	1437.50	8894	8980	87	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	10	1964.60	534.20	9075	9217	143	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	11	970.40	1270.20	9293	9655	363	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	4	12	587.20	1729.00	9695	9733	38	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	5	1	671.50	344.80	2798	3389	592	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	2	1037.30	377.40	3426	3679	254	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	3	780.40	598.30	3711	4529	819	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	4	729.80	524.60	4806	5210	405	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	5	678.10	555.00	5227	5547	321	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	6	641.00	514.00	5562	5768	207	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	7	554.70	460.70	5790	6045	256	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	8	268.80	284.90	6086	6272	187	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	9	704.00	426.10	6318	7123	806	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	10	512.10	462.70	7154	7336	183	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	11	-111.90	-447.80	7489	7616	128	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	12	520.30	466.00	7696	8051	356	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	13	614.20	394.30	8075	8403	329	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	14	106.60	48.80	8464	8694	231	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	5	15	83.10	-9.90	8713	8783	70	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	6	1	934.10	517.60	7249	7856	608	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	6	2	918.10	596.70	7875	8156	282	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	6	3	1020.30	268.90	8202	8702	501	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	6	4	988.70	552.40	8758	9239	482	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	6	5	1066.90	433.40	9259	10206	948	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	6	6	1150.30	303.80	10216	11431	1216	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	6	7	474.00	1043.70	11694	11854	161	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	6	8	580.70	71.20	12101	12215	115	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	6	9	-109.50	-621.10	12724	12847	124	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	6	10	11.80	-146.30	12905	13084	180	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	6	11	921.40	1099.20	13213	13248	35	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Left
+07	7	1	838.50	529.00	2876	3160	285	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	2	1045.30	388.30	3188	3418	231	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	3	980.90	438.40	3933	4296	364	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	4	1127.20	434.80	4331	4816	486	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	5	1042.30	412.30	4838	5074	237	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	6	1129.80	393.60	5095	5802	708	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	7	949.20	799.70	5853	6066	214	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	8	1196.20	505.20	6116	6524	409	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	9	1293.40	556.20	6760	7499	740	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	10	1340.90	523.40	7516	8006	491	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	11	1328.90	496.60	8026	8575	550	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	7	12	1055.40	497.40	8666	8876	210	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	8	1	618.10	428.70	2402	2999	598	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	2	891.50	580.60	3037	3681	645	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	3	749.90	616.60	3702	4231	530	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	4	1223.30	294.40	4412	4601	190	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	5	901.70	435.10	4638	5461	824	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	6	556.80	463.10	5508	5950	443	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	7	651.30	456.30	5969	6160	192	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	8	533.40	471.30	6185	7246	1062	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	9	634.80	420.10	7266	7734	469	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	10	819.90	483.70	8084	8147	64	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	11	813.90	498.40	8158	8268	111	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	8	12	745.30	1020.10	8336	8393	57	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+07	9	1	618.80	370.20	1012	1027	16	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	2	785.70	521.80	1062	1595	534	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	3	940.60	462.20	1625	1955	331	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	4	888.20	536.20	1974	2938	965	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	5	820.30	498.20	2953	3549	597	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	6	728.50	561.10	3572	3739	168	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	7	787.20	562.00	3760	4051	292	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	8	641.40	685.70	4080	4788	709	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	9	390.60	1176.90	5025	5048	24	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	10	285.50	1163.00	5167	5197	31	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	11	274.50	1139.00	5241	5373	133	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	12	506.10	1097.80	5443	5538	96	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	13	571.30	977.00	5553	5900	348	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	14	549.10	899.80	5913	6127	215	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	15	625.80	806.30	6144	6392	249	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	16	568.30	807.40	6412	6542	131	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	9	17	627.50	810.30	6561	7012	451	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	1	681.60	426.00	1572	2140	569	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	2	875.50	540.50	2172	2501	330	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	3	-6.20	525.60	2575	2814	240	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	4	-171.90	26.30	2904	2965	62	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	5	789.60	462.10	3327	3682	356	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	6	783.40	543.50	3698	4417	720	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	7	674.40	648.10	4718	5007	290	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	8	430.20	881.40	5046	5149	104	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	9	691.10	726.50	5182	5489	308	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	10	534.60	820.00	5520	5774	255	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	11	604.40	791.90	5793	6156	364	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	10	12	557.60	766.70	6174	7571	1397	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+07	11	1	1150.10	275.50	6500	7000	501	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	2	927.70	542.60	7369	7562	194	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	3	1136.80	466.70	7591	8670	1080	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	4	1209.90	388.30	8685	9446	762	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	5	1397.30	514.10	9479	9689	211	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	6	1304.70	478.50	9712	10120	409	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	7	1311.60	455.10	10137	10349	213	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	8	1408.80	476.30	10374	10939	566	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	9	1442.40	422.30	10952	10998	47	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	10	1448.30	406.50	11005	11246	242	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	11	1431.90	349.50	11255	11670	416	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	12	1435.10	415.60	11681	11880	200	NONE	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	11	13	1432.50	415.30	11888	12445	557	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+07	12	1	739.70	515.90	6045	6414	370	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	12	2	578.90	476.90	6439	6914	476	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	12	3	635.60	464.70	6931	7103	173	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	12	4	645.90	424.00	7311	8760	1450	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	12	5	646.10	429.50	8774	9110	337	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+07	12	6	1096.40	361.80	9158	9430	272	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+08	1	1	636.10	266.60	17673	17890	218	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+08	1	2	973.50	493.60	17935	18717	783	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+08	1	3	1061.00	416.50	18892	19236	345	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+08	1	4	1025.00	576.70	19286	19566	281	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+08	1	5	1064.30	486.50	19598	20276	679	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+08	1	6	1183.90	584.30	20463	20608	146	BOTH	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+08	1	7	1149.20	606.90	21525	21680	156	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+08	1	8	1243.90	692.80	21711	22086	376	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+08	1	9	1291.80	756.50	22108	22546	439	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+08	1	10	1350.90	817.80	22562	23673	1111	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+08	2	1	779.30	487.20	5953	6194	242	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	2	879.40	575.00	6237	6753	517	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	3	965.60	421.60	6779	7096	318	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	4	810.30	485.00	7121	8373	1253	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	5	701.80	370.20	8396	9380	985	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	6	862.10	486.80	9556	9592	37	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	7	865.30	468.10	9605	9870	266	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	8	812.40	493.10	10097	10139	43	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	9	836.50	479.00	10193	10724	532	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	10	1427.40	-41.20	10782	10922	141	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	11	1546.10	-136.50	10946	11024	79	NONE	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	2	12	1522.70	-132.50	11032	11311	280	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	What if?	Right
+08	3	1	1146.60	457.90	7021	7340	320	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	2	965.90	613.80	7377	7608	232	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	3	1159.90	1133.40	8160	8239	80	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	4	1125.40	681.00	8302	8425	124	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	5	1045.70	562.70	8459	8734	276	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	6	1083.70	526.80	8984	9324	341	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	7	1148.40	578.60	9619	9777	159	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	8	1366.10	2130.20	10174	10232	59	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	9	1431.40	2121.20	10263	10315	53	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	10	1191.30	1242.70	10491	10647	157	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	11	1126.00	1282.00	10676	10899	224	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	12	1185.90	1230.50	10919	11619	701	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	3	13	1317.40	703.40	11680	11879	200	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	4	1	969.80	680.40	3814	4006	193	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	4	2	859.80	599.30	4039	5017	979	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	4	3	-77.80	20.00	5218	5468	251	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	4	4	7.40	-39.20	5494	5693	200	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	4	5	85.10	36.20	5716	5822	107	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	4	6	952.30	634.40	5894	6059	166	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	4	7	815.00	473.30	6094	6346	253	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	4	8	1432.90	684.10	6411	6993	583	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	4	9	1116.50	517.80	7037	7183	147	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	4	10	755.50	422.70	7236	7976	741	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	4	11	1452.10	1241.80	9417	9606	189	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+08	5	1	1067.90	565.80	4547	4924	378	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+08	5	2	882.40	607.50	4964	5590	627	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+08	5	3	-229.70	1378.90	5672	6145	474	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+08	5	4	800.80	613.10	6223	6411	189	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+08	5	5	753.90	412.20	6445	8057	1613	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+08	6	1	869.50	329.00	3239	3612	374	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	2	889.70	604.80	3662	3806	145	AFTER	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	3	880.90	405.50	4617	4658	42	BOTH	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	4	985.10	1409.50	5804	6202	399	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	5	826.70	576.10	6276	6474	199	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	6	744.10	608.50	6494	6586	93	AFTER	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	7	758.60	633.20	6658	6984	327	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	8	697.10	695.00	7003	7151	149	AFTER	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	9	626.40	623.30	7443	8129	687	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	10	553.60	818.30	8178	8717	540	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	11	762.40	1264.80	8749	8987	239	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	6	12	711.20	553.30	9048	9159	111	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+08	7	1	875.60	587.20	2831	3196	366	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+08	7	2	1013.50	538.20	3219	4174	956	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+08	7	3	1245.50	218.30	4341	4511	171	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+08	7	4	1480.10	-130.70	4567	4969	403	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+08	7	5	1169.30	505.60	5039	5240	202	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+08	7	6	1336.40	541.10	5275	5352	78	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+08	7	7	1584.10	318.00	6797	7038	242	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+08	8	1	1028.50	409.90	30018	30201	184	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	8	2	965.70	663.20	30260	30520	261	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	8	3	1021.80	385.30	30561	30797	237	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+08	9	1	631.30	257.90	666	949	284	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+08	9	2	850.50	544.00	979	1576	598	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+08	9	3	983.30	712.00	3343	3484	142	BOTH	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+08	9	4	1010.60	470.40	3647	4021	375	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+08	9	5	1552.30	-224.60	4087	4436	350	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+08	10	1	1057.80	479.70	3561	3987	427	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	2	1065.90	454.90	4529	4826	298	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	3	1055.50	496.50	4857	5343	487	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	4	1109.10	483.60	5401	5492	92	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	5	1148.60	430.00	5513	5740	228	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	6	1196.50	426.80	5952	6280	329	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	7	1510.20	-246.10	6358	6702	345	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	8	1129.10	405.20	6771	7050	280	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	9	1296.30	359.20	7075	8316	1242	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	10	1554.50	-60.60	8374	8563	190	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	11	1577.70	-99.00	8578	8794	217	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	12	1965.70	42.00	8850	9050	201	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	10	13	1928.30	60.00	9071	9410	339	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+08	11	1	1019.60	726.30	4102	4313	212	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+08	11	2	978.60	601.20	4348	4762	415	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+08	11	3	505.40	168.00	4909	5278	370	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+08	11	4	-56.30	-150.70	5410	5639	230	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+08	11	5	1164.70	460.40	6085	7035	951	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+08	11	6	1539.10	44.20	7097	7478	382	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+08	11	7	1090.60	467.60	7537	7946	410	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+08	11	8	1503.80	-108.00	7998	8412	415	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+08	11	9	1182.00	770.10	9485	9598	114	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+08	11	10	1308.50	557.70	9634	9804	171	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+08	12	1	1011.00	499.50	3693	4051	359	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Remember	Right
+09	1	1	1061.60	529.70	6854	6920	67	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	2	1006.30	755.10	6961	7238	278	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	3	922.60	760.80	7262	7465	204	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	4	884.80	517.20	7504	8119	616	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	5	770.40	592.20	8149	8500	352	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	6	776.10	436.20	8759	9099	341	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	7	691.50	490.50	9125	9377	253	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	8	944.70	461.00	9408	9690	283	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	9	698.50	400.40	9719	10248	530	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	10	633.00	417.80	10267	10670	404	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	11	969.30	436.30	10703	10999	297	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	12	659.10	368.70	11035	11465	431	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	13	631.90	356.70	11487	12254	768	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	14	659.60	365.90	12274	12482	209	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	1	15	622.20	361.70	12506	12686	180	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+09	2	1	1131.40	550.10	6234	6454	221	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+09	2	2	888.90	639.60	6493	6981	489	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+09	2	3	938.00	351.30	7015	7470	456	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+09	2	4	763.70	496.60	7500	8973	1474	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+09	2	5	751.90	335.80	8997	9587	591	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+09	2	6	703.00	342.10	9610	10773	1164	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+09	2	7	664.80	317.90	10796	11222	427	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+09	2	8	657.40	335.40	11241	11680	440	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+09	2	9	1173.20	411.30	11722	11896	175	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+09	3	1	826.40	285.20	4558	4659	102	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	2	814.50	629.60	4706	4896	191	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	3	709.10	435.10	4930	5554	625	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	4	786.80	498.30	5588	5948	361	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	5	713.80	524.50	5973	7205	1233	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	6	943.20	345.30	7244	7601	358	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	7	598.10	585.70	7771	8040	270	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	8	610.90	712.00	8075	8608	534	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	9	602.00	646.50	9105	9270	166	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	10	549.30	807.90	9310	9821	512	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	11	887.50	362.70	9865	10113	249	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	3	12	942.50	416.80	10137	10254	117	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	4	1	1155.20	678.40	4104	4200	97	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	2	1058.70	655.00	4238	4521	284	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	3	1072.50	413.20	4551	5141	591	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	4	1158.50	587.10	5169	5800	632	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	5	1220.10	712.10	6011	6078	68	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	6	1554.10	573.80	6098	6222	125	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	7	1332.40	420.70	6242	6712	471	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	8	1253.40	409.90	6746	7341	596	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	9	1261.30	307.10	7365	7812	448	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	10	1312.80	282.40	7838	9183	1346	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	11	1464.10	354.70	9211	9421	211	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	4	12	1305.60	265.30	9615	9828	213	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	5	1	1109.00	524.60	5673	5764	92	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	2	1121.10	644.20	5803	6122	320	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	3	816.80	393.80	6153	6738	586	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	4	964.00	409.40	6763	7058	296	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	5	853.60	521.20	7093	7855	763	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	6	774.80	631.00	7879	8772	894	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	7	774.40	681.70	8786	9038	253	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	8	1176.50	274.80	9088	9335	248	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	9	1406.10	325.80	9364	9712	349	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	10	920.90	449.90	9755	10053	299	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	11	628.90	849.80	10104	10848	745	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	5	12	561.70	843.10	10868	11343	475	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+09	6	1	1653.80	1302.90	10787	11138	352	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+09	6	2	970.40	1123.30	11189	11730	542	NONE	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+09	6	3	525.30	1062.40	11775	11917	142	AFTER	Left	LAMI-kids-left-missX.xvd	miss	What if?	Left
+09	7	1	1668.60	1719.60	3618	3750	133	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	2	874.80	487.00	3827	4610	784	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	3	1037.20	583.30	4636	5446	811	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	4	1137.80	450.20	5471	5885	415	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	5	1124.30	498.50	5908	6338	431	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	6	1169.30	574.40	6355	6594	240	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	7	1048.50	771.40	6893	6962	70	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	8	1191.10	709.10	6997	7164	168	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	9	750.80	311.60	7215	7695	481	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	10	1295.00	724.50	7738	7948	211	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	11	1216.40	789.80	7972	8034	63	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	12	995.70	841.40	8066	8101	36	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	13	1221.50	797.70	8136	8363	228	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	14	1330.00	843.50	8385	9121	737	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	15	981.20	1094.10	9235	9268	34	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	16	977.40	621.90	9421	9446	26	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	7	17	1048.40	493.10	9474	9579	106	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	8	1	1014.70	567.60	4147	4654	508	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+09	8	2	1016.90	573.50	4676	5560	885	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+09	8	3	922.70	376.40	5594	6125	532	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+09	8	4	1205.30	485.40	6156	6442	287	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+09	8	5	1333.50	367.20	6467	6976	510	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+09	8	6	1248.50	374.50	7001	8494	1494	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+09	8	7	1013.30	328.90	8660	8958	299	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+09	8	8	1288.90	342.50	8989	9278	290	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+09	8	9	893.60	380.10	9317	9747	431	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+09	8	10	1280.80	304.80	9783	9843	60	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+09	9	1	874.30	374.20	3765	4000	236	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	2	924.30	632.40	4043	4267	225	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	3	925.30	369.20	4311	4742	432	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	4	808.20	536.00	4783	5210	428	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	5	789.40	516.60	5222	5657	436	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	6	733.10	283.60	5686	6104	419	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	7	590.90	289.40	6132	6890	759	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	8	661.40	337.10	6914	7405	492	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	9	616.90	333.70	7421	8360	940	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	10	1255.00	291.60	8405	8592	188	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	11	1338.30	282.30	8615	8842	228	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	12	639.90	287.80	8898	9222	325	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	9	13	599.20	315.80	9245	9711	467	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Left
+09	10	1	985.00	504.30	3352	4040	689	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	2	1094.30	638.20	4068	4457	390	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	3	1034.10	487.60	4734	5134	401	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	4	967.50	425.50	5155	5825	671	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	5	1188.20	487.80	5853	6183	331	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	6	1295.90	387.50	6210	6638	429	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	7	1235.60	400.10	6661	7289	629	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	8	1308.10	354.90	7307	7591	285	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	9	1348.90	339.50	7602	7915	314	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	10	1275.40	346.70	7937	8323	387	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	11	632.40	336.40	8381	8724	344	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	12	236.50	6.70	8775	9093	319	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	10	13	268.30	-42.70	9113	9225	113	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+09	11	1	1024.20	455.50	5798	6913	1116	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	11	2	1036.30	478.50	6933	7316	384	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	11	3	1160.90	521.70	7339	7813	475	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	11	4	1309.60	400.70	7844	8216	373	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	11	5	1142.30	584.40	8256	8724	469	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	11	6	1089.30	584.40	8993	9148	156	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	11	7	1269.30	699.60	9188	9889	702	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	11	8	1117.60	830.00	10252	10742	491	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	11	9	784.70	1280.80	10793	11005	213	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+09	12	1	1279.60	417.20	6493	6795	303	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+09	12	2	1172.60	511.90	6823	7305	483	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+09	12	3	1215.90	604.40	7324	7926	603	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+09	12	4	1313.50	695.70	9046	9320	275	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+09	12	5	1128.60	423.30	9356	9506	151	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+09	12	6	1588.20	471.30	9585	9662	78	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+09	12	7	1742.80	828.40	9699	9724	26	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+09	12	8	1424.30	828.60	9737	10230	494	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+09	12	9	1390.50	806.00	10238	10631	393	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	1	1	952.70	627.20	4187	4554	368	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	2	901.80	353.80	4597	4800	204	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	3	964.30	350.10	4816	5859	1044	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	4	1116.20	423.50	6131	6693	563	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	5	1191.70	321.90	6715	7102	388	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	6	1172.20	332.50	7113	7815	703	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	7	1252.90	303.70	7830	8399	570	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	8	934.50	359.50	8443	8729	287	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	9	976.30	316.90	8741	9368	628	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	10	933.90	314.90	9385	9674	290	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	11	961.90	311.50	9683	10048	366	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	1	12	1274.40	253.00	10081	10187	106	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Cause	Right
+10	2	1	785.80	531.40	3520	3760	241	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	2	934.50	588.40	3788	3978	191	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	3	904.30	399.00	4008	4524	517	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	4	869.60	567.80	4553	4954	402	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	5	859.10	497.70	4969	5308	340	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	6	845.20	434.10	5329	5659	331	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	7	857.80	345.20	5673	6042	370	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	8	851.00	400.90	6060	6116	57	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	9	697.30	421.10	6139	7550	1412	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	10	669.50	616.20	7569	8090	522	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	11	893.20	1023.70	8125	8705	581	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	12	595.40	586.30	8763	9180	418	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	2	13	761.30	242.20	9208	9520	312	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	3	1	922.90	598.00	2569	2889	321	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	3	2	938.40	361.20	2922	3870	949	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	3	3	1028.80	435.80	3897	3975	79	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	3	4	1052.90	311.30	4271	5276	1006	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	3	5	1141.10	288.80	5292	6153	862	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	3	6	1222.20	271.30	6162	7190	1029	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	3	7	1263.90	287.70	7201	7587	387	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	3	8	1178.80	275.20	7609	7801	193	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	3	9	1228.70	250.60	7817	8199	383	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	4	1	756.30	464.90	3148	3457	310	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	2	844.70	374.30	3480	3793	314	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	3	868.50	514.20	3822	4283	462	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	4	867.70	371.50	4311	4529	219	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	5	942.50	326.70	4548	4927	380	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	6	819.90	420.70	4954	5353	400	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	7	827.20	525.60	5376	5420	45	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	8	827.00	437.20	5436	5594	159	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	9	698.80	471.70	5618	6548	931	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	10	535.60	714.00	6580	7507	928	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	11	577.90	606.50	7533	7935	403	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	12	552.20	704.20	7957	8209	253	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	4	13	539.30	698.10	8221	9148	927	NONE	Left	LAMI-kids-left-missX.xvd	miss	Cause	Left
+10	5	1	1158.10	444.90	2628	2865	238	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	5	2	1034.70	337.00	2893	3146	254	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	5	3	993.60	558.00	3178	3642	465	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	5	4	1075.30	378.10	3678	3789	112	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	5	5	1398.90	573.50	7733	8148	416	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	5	6	1377.00	799.00	8185	8215	31	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	5	7	1309.80	1162.70	8438	8628	190	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	1	1104.70	462.30	4187	4378	192	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	2	958.60	512.70	4408	4892	485	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	3	1005.10	301.80	4924	5215	292	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	4	963.10	292.70	5227	5355	129	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	5	1189.30	359.80	5901	6201	301	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	6	1111.60	394.70	6225	6429	205	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	7	1132.70	417.70	6476	7063	588	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	8	1215.60	525.70	7088	7475	388	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	9	695.70	262.60	7527	7923	397	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	10	695.90	710.70	8127	8221	95	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	11	692.10	474.90	8230	8265	36	AFTER	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	12	1059.10	310.50	8473	8701	229	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	13	1210.30	640.70	8797	8833	37	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	14	1256.30	489.90	8840	9320	481	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	15	1208.50	852.10	9359	9669	311	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	6	16	1666.90	1352.10	9745	10187	442	NONE	Right	LAMI-kids-right-missX.xvd	miss	What if?	Left
+10	7	1	796.20	466.20	3071	3292	222	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+10	7	2	913.90	381.00	3318	3557	240	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+10	7	3	812.40	492.80	3585	5738	2154	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+10	7	4	711.80	323.70	5758	6627	870	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+10	7	5	683.30	296.50	6636	6910	275	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+10	7	6	674.80	281.30	6919	8293	1375	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+10	7	7	665.90	285.30	8302	9071	769	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Remember	Left
+10	8	1	772.50	458.70	2910	3179	270	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	2	893.00	353.10	3206	3476	271	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	3	911.50	550.00	3514	4252	739	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	4	1001.00	476.50	4278	4479	202	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	5	993.70	428.60	4497	5005	509	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	6	815.80	674.40	5136	5215	80	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	7	815.90	443.10	5228	5673	446	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	8	1018.20	342.00	5704	6374	671	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	9	1068.20	415.00	6382	6427	46	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	10	1183.30	523.60	6445	6515	71	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	11	699.20	691.20	7088	7112	25	BOTH	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	12	1095.70	2038.80	7290	7358	69	BOTH	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	13	1028.40	2057.10	7478	7518	41	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	14	1013.40	1918.90	7532	7593	62	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	15	1693.60	1422.40	7649	7979	331	AFTER	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	16	463.10	810.30	8468	8558	91	BEFORE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	17	461.30	762.10	8658	8679	22	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	8	18	551.00	699.50	8764	8910	146	NONE	Left	LAMI-kids-left-missX.xvd	miss	Remember	Left
+10	9	1	905.80	644.70	6000	6330	331	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	2	980.70	416.70	6447	6604	158	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	3	969.70	409.70	6650	6831	182	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	4	885.60	392.50	6849	6887	39	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	5	1003.90	393.00	6982	7004	23	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	6	1212.80	474.20	8254	8601	348	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	7	1614.70	773.90	8874	8914	41	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	8	1444.70	708.50	9341	9387	47	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	9	1554.80	780.90	9395	9498	104	AFTER	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	10	974.50	356.80	9793	9946	154	BOTH	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	11	1242.70	440.80	10485	10854	370	BEFORE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	12	1230.40	746.90	10889	11171	283	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	13	1355.10	780.70	11233	11326	94	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	14	1365.50	753.50	11336	11637	302	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	9	15	1676.30	1292.20	11685	11762	77	NONE	Right	LAMI-kids-right-missX.xvd	miss	Cause	Left
+10	10	1	1013.10	362.00	4150	4364	215	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	10	2	981.70	337.00	4879	5560	682	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	10	3	974.30	285.20	5573	6022	450	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	10	4	961.90	433.30	6430	7858	1429	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	10	5	961.10	423.70	7882	7933	52	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	10	6	1721.40	500.50	8027	8102	76	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	10	7	1509.60	402.20	8109	8674	565	NONE	Right	LAMI-kids-right-scoreX.xvd	score	What if?	Right
+10	11	1	769.90	592.80	3228	3506	279	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	11	2	925.60	459.90	3534	3784	251	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	11	3	879.80	585.80	3809	4133	325	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	11	4	879.60	641.60	4452	4560	109	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	11	5	822.80	520.90	4583	5481	899	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	11	6	805.30	472.90	5507	5737	231	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	11	7	838.20	465.20	5749	6127	379	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	11	8	793.10	614.00	6150	6583	434	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	11	9	793.80	611.90	6602	7242	641	AFTER	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	11	10	800.50	627.80	8367	8762	396	BEFORE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	11	11	731.90	579.30	8777	9228	451	NONE	Left	LAMI-kids-left-scoreX.xvd	score	Cause	Right
+10	12	1	956.90	360.90	7548	7681	134	BOTH	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+10	12	2	873.70	478.40	7932	8012	81	BEFORE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+10	12	3	993.50	453.10	8130	8192	63	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+10	12	4	1001.90	456.70	8214	8395	182	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+10	12	5	930.90	400.40	8790	8919	130	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+10	12	6	1113.90	1525.40	9012	9365	354	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+10	12	7	1121.60	1461.90	9378	9541	164	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+10	12	8	1131.70	1370.70	9556	10056	501	NONE	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
+10	12	9	884.00	279.90	10204	10325	122	AFTER	Right	LAMI-kids-right-scoreX.xvd	score	Remember	Right
